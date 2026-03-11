@@ -1,0 +1,6 @@
+[package]
+name = "ch2_6_4_tdd_search"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

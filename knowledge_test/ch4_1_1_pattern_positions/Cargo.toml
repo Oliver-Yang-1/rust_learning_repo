@@ -1,0 +1,6 @@
+[package]
+name = "ch4_1_1_pattern_positions"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

@@ -1,0 +1,20 @@
+# Rust 编译输出
+/target
+**/target/
+
+# Cargo 锁文件（库项目可选，二进制项目通常保留）
+# Cargo.lock
+
+# macOS
+.DS_Store
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 调试与日志
+*.log
+*.tmp

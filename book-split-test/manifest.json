@@ -1,0 +1,2607 @@
+{
+  "source_file": "/Users/oliveryang/2025Projects/learning_rust/full.md",
+  "output_dir": "/Users/oliveryang/2025Projects/learning_rust/book-split-test",
+  "toc_file": "toc.md",
+  "body_prefix_file": "body-prefix.md",
+  "body_suffix_file": "body-suffix.md",
+  "body_start_line": 179,
+  "first_body_heading_line": 189,
+  "body_suffix_start_line": null,
+  "items": [
+    {
+      "id": "item-001",
+      "order": 1,
+      "raw_line": 3,
+      "raw_text": "# 入门指南",
+      "title": "入门指南",
+      "number": null,
+      "depth": 0,
+      "source_kind": "heading-only",
+      "emit": false,
+      "status": "structural",
+      "reason": "目录中的结构性分组标题，默认不直接切分成章节文件。",
+      "start_line": null,
+      "output_file": "chapters/001-group-入门指南.md",
+      "candidate_headings": [
+        {
+          "line": 189,
+          "level": 1,
+          "title": "入门指南"
+        }
+      ]
+    },
+    {
+      "id": "item-002",
+      "order": 2,
+      "raw_line": 5,
+      "raw_text": "Introduction 1.1",
+      "title": "Introduction",
+      "number": "1.1",
+      "depth": 1,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-manual",
+      "reason": "根据正文起始区域手工核定：该条目对应正文最前面的书名页标题。",
+      "start_line": 187,
+      "output_file": "chapters/002-1-1-Introduction.md",
+      "candidate_headings": [
+        {
+          "line": 187,
+          "title": "manual-resolution",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "item-003",
+      "order": 3,
+      "raw_line": 7,
+      "raw_text": "入门指南 1.2",
+      "title": "入门指南",
+      "number": "1.2",
+      "depth": 1,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 189,
+      "output_file": "chapters/003-1-2-入门指南.md",
+      "candidate_headings": [
+        {
+          "line": 189,
+          "level": 1,
+          "title": "入门指南"
+        }
+      ]
+    },
+    {
+      "id": "item-004",
+      "order": 4,
+      "raw_line": 9,
+      "raw_text": "安装 1.2.1",
+      "title": "安装",
+      "number": "1.2.1",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 199,
+      "output_file": "chapters/004-1-2-1-安装.md",
+      "candidate_headings": [
+        {
+          "line": 199,
+          "level": 1,
+          "title": "安装"
+        }
+      ]
+    },
+    {
+      "id": "item-005",
+      "order": 5,
+      "raw_line": 11,
+      "raw_text": "Hello, World! 1.2.2",
+      "title": "Hello, World!",
+      "number": "1.2.2",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 289,
+      "output_file": "chapters/005-1-2-2-Hello,-World!.md",
+      "candidate_headings": [
+        {
+          "line": 289,
+          "level": 1,
+          "title": "Hello, World!"
+        }
+      ]
+    },
+    {
+      "id": "item-006",
+      "order": 6,
+      "raw_line": 13,
+      "raw_text": "Hello, Cargo! 1.2.3",
+      "title": "Hello, Cargo!",
+      "number": "1.2.3",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 419,
+      "output_file": "chapters/006-1-2-3-Hello,-Cargo!.md",
+      "candidate_headings": [
+        {
+          "line": 419,
+          "level": 1,
+          "title": "Hello, Cargo!"
+        }
+      ]
+    },
+    {
+      "id": "item-007",
+      "order": 7,
+      "raw_line": 15,
+      "raw_text": "猜猜看游戏教程 1.3",
+      "title": "猜猜看游戏教程",
+      "number": "1.3",
+      "depth": 1,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-manual",
+      "reason": "根据目录顺序与正文标题“编写 猜猜看 游戏”手工核定得到的 start_line。",
+      "start_line": 573,
+      "output_file": "chapters/007-1-3-猜猜看游戏教程.md",
+      "candidate_headings": [
+        {
+          "line": 573,
+          "title": "manual-resolution",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "item-008",
+      "order": 8,
+      "raw_line": 17,
+      "raw_text": "常见编程概念 1.4",
+      "title": "常见编程概念",
+      "number": "1.4",
+      "depth": 1,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 1088,
+      "output_file": "chapters/008-1-4-常见编程概念.md",
+      "candidate_headings": [
+        {
+          "line": 1088,
+          "level": 1,
+          "title": "常见编程概念"
+        }
+      ]
+    },
+    {
+      "id": "item-009",
+      "order": 9,
+      "raw_line": 19,
+      "raw_text": "变量与可变性 1.4.1",
+      "title": "变量与可变性",
+      "number": "1.4.1",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 1100,
+      "output_file": "chapters/009-1-4-1-变量与可变性.md",
+      "candidate_headings": [
+        {
+          "line": 1100,
+          "title": "变量和可变性",
+          "score": 1.0
+        },
+        {
+          "line": 1159,
+          "title": "变量和常量的区别",
+          "score": 0.4286
+        },
+        {
+          "line": 1096,
+          "title": "关键字",
+          "score": 0.0
+        },
+        {
+          "line": 1181,
+          "title": "隐藏（Shadowing）",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "item-010",
+      "order": 10,
+      "raw_line": 21,
+      "raw_text": "数据类型 1.4.2",
+      "title": "数据类型",
+      "number": "1.4.2",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 1232,
+      "output_file": "chapters/010-1-4-2-数据类型.md",
+      "candidate_headings": [
+        {
+          "line": 1232,
+          "level": 1,
+          "title": "数据类型"
+        }
+      ]
+    },
+    {
+      "id": "item-011",
+      "order": 11,
+      "raw_line": 23,
+      "raw_text": "函数如何工作 1.4.3",
+      "title": "函数如何工作",
+      "number": "1.4.3",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 1462,
+      "output_file": "chapters/011-1-4-3-函数如何工作.md",
+      "candidate_headings": [
+        {
+          "line": 1462,
+          "title": "函数",
+          "score": 0.93
+        },
+        {
+          "line": 1498,
+          "title": "函数参数",
+          "score": 0.4
+        },
+        {
+          "line": 1613,
+          "title": "具有返回值的函数",
+          "score": 0.2857
+        },
+        {
+          "line": 1558,
+          "title": "包含语句和表达式的函数体",
+          "score": 0.2222
+        },
+        {
+          "line": 1307,
+          "title": "数值运算",
+          "score": 0.2
+        }
+      ]
+    },
+    {
+      "id": "item-012",
+      "order": 12,
+      "raw_line": 25,
+      "raw_text": "注释 1.4.4",
+      "title": "注释",
+      "number": "1.4.4",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 1676,
+      "output_file": "chapters/012-1-4-4-注释.md",
+      "candidate_headings": [
+        {
+          "line": 1676,
+          "level": 1,
+          "title": "注释"
+        }
+      ]
+    },
+    {
+      "id": "item-013",
+      "order": 13,
+      "raw_line": 27,
+      "raw_text": "控制流 1.4.5",
+      "title": "控制流",
+      "number": "1.4.5",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 1720,
+      "output_file": "chapters/013-1-4-5-控制流.md",
+      "candidate_headings": [
+        {
+          "line": 1720,
+          "level": 1,
+          "title": "控制流"
+        }
+      ]
+    },
+    {
+      "id": "item-014",
+      "order": 14,
+      "raw_line": 29,
+      "raw_text": "认识所有权 1.5",
+      "title": "认识所有权",
+      "number": "1.5",
+      "depth": 1,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 2009,
+      "output_file": "chapters/014-1-5-认识所有权.md",
+      "candidate_headings": [
+        {
+          "line": 2009,
+          "level": 1,
+          "title": "认识所有权"
+        }
+      ]
+    },
+    {
+      "id": "item-015",
+      "order": 15,
+      "raw_line": 31,
+      "raw_text": "什么是所有权？ 1.5.1",
+      "title": "什么是所有权？",
+      "number": "1.5.1",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 2017,
+      "output_file": "chapters/015-1-5-1-什么是所有权.md",
+      "candidate_headings": [
+        {
+          "line": 2017,
+          "level": 1,
+          "title": "什么是所有权？"
+        }
+      ]
+    },
+    {
+      "id": "item-016",
+      "order": 16,
+      "raw_line": 33,
+      "raw_text": "引用与借用 1.5.2",
+      "title": "引用与借用",
+      "number": "1.5.2",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 2298,
+      "output_file": "chapters/016-1-5-2-引用与借用.md",
+      "candidate_headings": [
+        {
+          "line": 2298,
+          "level": 1,
+          "title": "引用与借用"
+        }
+      ]
+    },
+    {
+      "id": "item-017",
+      "order": 17,
+      "raw_line": 35,
+      "raw_text": "Slices 1.5.3",
+      "title": "Slices",
+      "number": "1.5.3",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-manual",
+      "reason": "根据目录顺序与正文标题“Slice 类型”手工核定得到的 start_line。",
+      "start_line": 2531,
+      "output_file": "chapters/017-1-5-3-Slices.md",
+      "candidate_headings": [
+        {
+          "line": 2531,
+          "title": "manual-resolution",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "item-018",
+      "order": 18,
+      "raw_line": 37,
+      "raw_text": "使用结构体来组织相关联的数据 1.6",
+      "title": "使用结构体来组织相关联的数据",
+      "number": "1.6",
+      "depth": 1,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 2793,
+      "output_file": "chapters/018-1-6-使用结构体来组织相关联的数据.md",
+      "candidate_headings": [
+        {
+          "line": 2793,
+          "title": "使用结构体组织相关联的数据",
+          "score": 0.963
+        },
+        {
+          "line": 2522,
+          "title": "引用的规则",
+          "score": 0.2105
+        },
+        {
+          "line": 2787,
+          "title": "总结",
+          "score": 0.125
+        },
+        {
+          "line": 2371,
+          "title": "可变引用",
+          "score": 0.1111
+        },
+        {
+          "line": 2772,
+          "title": "其他类型的 slice",
+          "score": 0.08
+        }
+      ]
+    },
+    {
+      "id": "item-019",
+      "order": 19,
+      "raw_line": 39,
+      "raw_text": "定义并实例化结构体 1.6.1",
+      "title": "定义并实例化结构体",
+      "number": "1.6.1",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 2801,
+      "output_file": "chapters/019-1-6-1-定义并实例化结构体.md",
+      "candidate_headings": [
+        {
+          "line": 2801,
+          "level": 1,
+          "title": "定义并实例化结构体"
+        }
+      ]
+    },
+    {
+      "id": "item-020",
+      "order": 20,
+      "raw_line": 41,
+      "raw_text": "一个使用结构体的示例程序 1.6.2",
+      "title": "一个使用结构体的示例程序",
+      "number": "1.6.2",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 3033,
+      "output_file": "chapters/020-1-6-2-一个使用结构体的示例程序.md",
+      "candidate_headings": [
+        {
+          "line": 3033,
+          "level": 1,
+          "title": "一个使用结构体的示例程序"
+        }
+      ]
+    },
+    {
+      "id": "item-021",
+      "order": 21,
+      "raw_line": 43,
+      "raw_text": "方法语法 1.6.3",
+      "title": "方法语法",
+      "number": "1.6.3",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 3192,
+      "output_file": "chapters/021-1-6-3-方法语法.md",
+      "candidate_headings": [
+        {
+          "line": 3192,
+          "level": 1,
+          "title": "方法语法"
+        }
+      ]
+    },
+    {
+      "id": "item-022",
+      "order": 22,
+      "raw_line": 45,
+      "raw_text": "枚举与模式匹配 1.7",
+      "title": "枚举与模式匹配",
+      "number": "1.7",
+      "depth": 1,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 3362,
+      "output_file": "chapters/022-1-7-枚举与模式匹配.md",
+      "candidate_headings": [
+        {
+          "line": 3362,
+          "title": "枚举和模式匹配",
+          "score": 1.0
+        },
+        {
+          "line": 3200,
+          "title": "定义方法",
+          "score": 0.0
+        },
+        {
+          "line": 3236,
+          "title": "-> 运算符到哪去了？",
+          "score": 0.0
+        },
+        {
+          "line": 3245,
+          "title": "[derive(Debug, Copy, Clone)]",
+          "score": 0.0
+        },
+        {
+          "line": 3246,
+          "title": "struct Point {",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "item-023",
+      "order": 23,
+      "raw_line": 47,
+      "raw_text": "定义枚举 1.7.1",
+      "title": "定义枚举",
+      "number": "1.7.1",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 3372,
+      "output_file": "chapters/023-1-7-1-定义枚举.md",
+      "candidate_headings": [
+        {
+          "line": 3372,
+          "level": 1,
+          "title": "定义枚举"
+        }
+      ]
+    },
+    {
+      "id": "item-024",
+      "order": 24,
+      "raw_line": 49,
+      "raw_text": "match 控制流运算符 1.7.2",
+      "title": "match 控制流运算符",
+      "number": "1.7.2",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 3616,
+      "output_file": "chapters/024-1-7-2-match-控制流运算符.md",
+      "candidate_headings": [
+        {
+          "line": 3616,
+          "level": 1,
+          "title": "match 控制流运算符"
+        }
+      ]
+    },
+    {
+      "id": "item-025",
+      "order": 25,
+      "raw_line": 51,
+      "raw_text": "if let 简洁控制流 1.7.3",
+      "title": "if let 简洁控制流",
+      "number": "1.7.3",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 3813,
+      "output_file": "chapters/025-1-7-3-if-let-简洁控制流.md",
+      "candidate_headings": [
+        {
+          "line": 3813,
+          "title": "if let 简单控制流",
+          "score": 0.9167
+        },
+        {
+          "line": 3661,
+          "title": "Dime,",
+          "score": 0.2857
+        },
+        {
+          "line": 3713,
+          "title": "Dime,",
+          "score": 0.2857
+        },
+        {
+          "line": 3756,
+          "title": "匹配 Some(T)",
+          "score": 0.2857
+        },
+        {
+          "line": 3853,
+          "title": "Dime,",
+          "score": 0.2857
+        }
+      ]
+    },
+    {
+      "id": "item-026",
+      "order": 26,
+      "raw_line": 53,
+      "raw_text": "# 基本 Rust 技能",
+      "title": "基本 Rust 技能",
+      "number": null,
+      "depth": 0,
+      "source_kind": "heading-only",
+      "emit": false,
+      "status": "structural",
+      "reason": "目录中的结构性分组标题，默认不直接切分成章节文件。",
+      "start_line": null,
+      "output_file": "chapters/026-group-基本-Rust-技能.md",
+      "candidate_headings": []
+    },
+    {
+      "id": "item-027",
+      "order": 27,
+      "raw_line": 55,
+      "raw_text": "使用包、Crate 和模块管理不断增长的项目 2.1",
+      "title": "使用包、Crate 和模块管理不断增长的项目",
+      "number": "2.1",
+      "depth": 1,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 3898,
+      "output_file": "chapters/027-2-1-使用包、Crate-和模块管理不断增长的项目.md",
+      "candidate_headings": [
+        {
+          "line": 3898,
+          "title": "使用包、Crate和模块管理不断增长的项目",
+          "score": 1.0
+        },
+        {
+          "line": 3854,
+          "title": "Quarter(UsState),",
+          "score": 0.2222
+        },
+        {
+          "line": 3876,
+          "title": "Quarter(UsState),",
+          "score": 0.2222
+        },
+        {
+          "line": 3845,
+          "title": "enum UsState {",
+          "score": 0.1818
+        },
+        {
+          "line": 3867,
+          "title": "enum UsState {",
+          "score": 0.1818
+        }
+      ]
+    },
+    {
+      "id": "item-028",
+      "order": 28,
+      "raw_line": 57,
+      "raw_text": "包和 crate 2.1.1",
+      "title": "包和 crate",
+      "number": "2.1.1",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 3921,
+      "output_file": "chapters/028-2-1-1-包和-crate.md",
+      "candidate_headings": [
+        {
+          "line": 3921,
+          "level": 1,
+          "title": "包和 crate"
+        }
+      ]
+    },
+    {
+      "id": "item-029",
+      "order": 29,
+      "raw_line": 58,
+      "raw_text": "定义模块来控制作用域与私有性 2.1.2",
+      "title": "定义模块来控制作用域与私有性",
+      "number": "2.1.2",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 3955,
+      "output_file": "chapters/029-2-1-2-定义模块来控制作用域与私有性.md",
+      "candidate_headings": [
+        {
+          "line": 3955,
+          "level": 1,
+          "title": "定义模块来控制作用域与私有性"
+        }
+      ]
+    },
+    {
+      "id": "item-030",
+      "order": 30,
+      "raw_line": 59,
+      "raw_text": "路径用于引用模块树中的项 2.1.3",
+      "title": "路径用于引用模块树中的项",
+      "number": "2.1.3",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 4010,
+      "output_file": "chapters/030-2-1-3-路径用于引用模块树中的项.md",
+      "candidate_headings": [
+        {
+          "line": 4010,
+          "level": 1,
+          "title": "路径用于引用模块树中的项"
+        }
+      ]
+    },
+    {
+      "id": "item-031",
+      "order": 31,
+      "raw_line": 60,
+      "raw_text": "使用 use 关键字将名称引入作用域 2.1.4",
+      "title": "使用 use 关键字将名称引入作用域",
+      "number": "2.1.4",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 4236,
+      "output_file": "chapters/031-2-1-4-使用-use-关键字将名称引入作用域.md",
+      "candidate_headings": [
+        {
+          "line": 4236,
+          "level": 1,
+          "title": "使用 use 关键字将名称引入作用域"
+        }
+      ]
+    },
+    {
+      "id": "item-032",
+      "order": 32,
+      "raw_line": 61,
+      "raw_text": "将模块分割进不同文件 2.1.5",
+      "title": "将模块分割进不同文件",
+      "number": "2.1.5",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 4471,
+      "output_file": "chapters/032-2-1-5-将模块分割进不同文件.md",
+      "candidate_headings": [
+        {
+          "line": 4471,
+          "level": 1,
+          "title": "将模块分割进不同文件"
+        }
+      ]
+    },
+    {
+      "id": "item-033",
+      "order": 33,
+      "raw_line": 63,
+      "raw_text": "# 常见集合 2.2",
+      "title": "常见集合",
+      "number": "2.2",
+      "depth": 1,
+      "source_kind": "heading-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 4530,
+      "output_file": "chapters/033-2-2-常见集合.md",
+      "candidate_headings": [
+        {
+          "line": 4530,
+          "level": 1,
+          "title": "常见集合"
+        }
+      ]
+    },
+    {
+      "id": "item-034",
+      "order": 34,
+      "raw_line": 65,
+      "raw_text": "vector 2.2.1",
+      "title": "vector",
+      "number": "2.2.1",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-manual",
+      "reason": "根据目录顺序与正文标题“vector 用来储存一系列的值”手工核定得到的 start_line。",
+      "start_line": 4544,
+      "output_file": "chapters/034-2-2-1-vector.md",
+      "candidate_headings": [
+        {
+          "line": 4544,
+          "title": "manual-resolution",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "item-035",
+      "order": 35,
+      "raw_line": 66,
+      "raw_text": "字符串 2.2.2",
+      "title": "字符串",
+      "number": "2.2.2",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-manual",
+      "reason": "根据目录顺序与正文标题“使用字符串存储 UTF-8 编码的文本”手工核定得到的 start_line。",
+      "start_line": 4712,
+      "output_file": "chapters/035-2-2-2-字符串.md",
+      "candidate_headings": [
+        {
+          "line": 4712,
+          "title": "manual-resolution",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "item-036",
+      "order": 36,
+      "raw_line": 67,
+      "raw_text": "哈希 map 2.2.3",
+      "title": "哈希 map",
+      "number": "2.2.3",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-manual",
+      "reason": "根据目录顺序与正文标题“哈希 map 储存键值对”手工核定得到的 start_line。",
+      "start_line": 5003,
+      "output_file": "chapters/036-2-2-3-哈希-map.md",
+      "candidate_headings": [
+        {
+          "line": 5003,
+          "title": "manual-resolution",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "item-037",
+      "order": 37,
+      "raw_line": 69,
+      "raw_text": "# 错误处理 2.3",
+      "title": "错误处理",
+      "number": "2.3",
+      "depth": 1,
+      "source_kind": "heading-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 5164,
+      "output_file": "chapters/037-2-3-错误处理.md",
+      "candidate_headings": [
+        {
+          "line": 5164,
+          "level": 1,
+          "title": "错误处理"
+        }
+      ]
+    },
+    {
+      "id": "item-038",
+      "order": 38,
+      "raw_line": 71,
+      "raw_text": "panic! 与不可恢复的错误 2.3.1",
+      "title": "panic! 与不可恢复的错误",
+      "number": "2.3.1",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 5176,
+      "output_file": "chapters/038-2-3-1-panic!-与不可恢复的错误.md",
+      "candidate_headings": [
+        {
+          "line": 5176,
+          "level": 1,
+          "title": "panic! 与不可恢复的错误"
+        }
+      ]
+    },
+    {
+      "id": "item-039",
+      "order": 39,
+      "raw_line": 72,
+      "raw_text": "Result 与可恢复的错误 2.3.2",
+      "title": "Result 与可恢复的错误",
+      "number": "2.3.2",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 5312,
+      "output_file": "chapters/039-2-3-2-Result-与可恢复的错误.md",
+      "candidate_headings": [
+        {
+          "line": 5312,
+          "level": 1,
+          "title": "Result 与可恢复的错误"
+        }
+      ]
+    },
+    {
+      "id": "item-040",
+      "order": 40,
+      "raw_line": 73,
+      "raw_text": "panic! 还是不 panic! 2.3.3",
+      "title": "panic! 还是不 panic!",
+      "number": "2.3.3",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 5571,
+      "output_file": "chapters/040-2-3-3-panic!-还是不-panic!.md",
+      "candidate_headings": [
+        {
+          "line": 5571,
+          "level": 1,
+          "title": "panic! 还是不 panic!"
+        }
+      ]
+    },
+    {
+      "id": "item-041",
+      "order": 41,
+      "raw_line": 75,
+      "raw_text": "# 泛型、trait 与生命周期 2.4",
+      "title": "泛型、trait 与生命周期",
+      "number": "2.4",
+      "depth": 1,
+      "source_kind": "heading-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 5666,
+      "output_file": "chapters/041-2-4-泛型、trait-与生命周期.md",
+      "candidate_headings": [
+        {
+          "line": 5666,
+          "title": "泛型、trait 和生命周期",
+          "score": 1.0
+        },
+        {
+          "line": 5581,
+          "title": "示例、代码原型和测试都非常适合 panic",
+          "score": 0.1333
+        },
+        {
+          "line": 5615,
+          "title": "创建自定义类型进行有效性验证",
+          "score": 0.0833
+        },
+        {
+          "line": 5734,
+          "title": "assert_eq!(result, 100);",
+          "score": 0.0645
+        },
+        {
+          "line": 5738,
+          "title": "assert_eq!(result, 6000);",
+          "score": 0.0625
+        }
+      ]
+    },
+    {
+      "id": "item-042",
+      "order": 42,
+      "raw_line": 77,
+      "raw_text": "泛型数据类型 2.4.1",
+      "title": "泛型数据类型",
+      "number": "2.4.1",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 5756,
+      "output_file": "chapters/042-2-4-1-泛型数据类型.md",
+      "candidate_headings": [
+        {
+          "line": 5756,
+          "level": 1,
+          "title": "泛型数据类型"
+        }
+      ]
+    },
+    {
+      "id": "item-043",
+      "order": 43,
+      "raw_line": 78,
+      "raw_text": "trait：定义共享的行为 2.4.2",
+      "title": "trait：定义共享的行为",
+      "number": "2.4.2",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 6074,
+      "output_file": "chapters/043-2-4-2-trait-定义共享的行为.md",
+      "candidate_headings": [
+        {
+          "line": 6074,
+          "level": 1,
+          "title": "trait：定义共享的行为"
+        }
+      ]
+    },
+    {
+      "id": "item-044",
+      "order": 44,
+      "raw_line": 79,
+      "raw_text": "生命周期与引用有效性 2.4.3",
+      "title": "生命周期与引用有效性",
+      "number": "2.4.3",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 6454,
+      "output_file": "chapters/044-2-4-3-生命周期与引用有效性.md",
+      "candidate_headings": [
+        {
+          "line": 6454,
+          "level": 1,
+          "title": "生命周期与引用有效性"
+        }
+      ]
+    },
+    {
+      "id": "item-045",
+      "order": 45,
+      "raw_line": 81,
+      "raw_text": "# 测试 2.5",
+      "title": "测试",
+      "number": "2.5",
+      "depth": 1,
+      "source_kind": "heading-numbered",
+      "emit": true,
+      "status": "auto-resolved-manual",
+      "reason": "根据目录顺序与正文标题“编写自动化测试”手工核定得到的 start_line。",
+      "start_line": 6855,
+      "output_file": "chapters/045-2-5-测试.md",
+      "candidate_headings": [
+        {
+          "line": 6855,
+          "title": "manual-resolution",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "item-046",
+      "order": 46,
+      "raw_line": 83,
+      "raw_text": "编写测试 2.5.1",
+      "title": "编写测试",
+      "number": "2.5.1",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 6871,
+      "output_file": "chapters/046-2-5-1-编写测试.md",
+      "candidate_headings": [
+        {
+          "line": 6871,
+          "title": "如何编写测试",
+          "score": 0.93
+        },
+        {
+          "line": 6855,
+          "title": "编写自动化测试",
+          "score": 0.7273
+        },
+        {
+          "line": 6885,
+          "title": "测试函数剖析",
+          "score": 0.4
+        },
+        {
+          "line": 7493,
+          "title": "运行单个测试",
+          "score": 0.4
+        },
+        {
+          "line": 7526,
+          "title": "忽略某些测试",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "id": "item-047",
+      "order": 47,
+      "raw_line": 84,
+      "raw_text": "运行测试 2.5.2",
+      "title": "运行测试",
+      "number": "2.5.2",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 7368,
+      "output_file": "chapters/047-2-5-2-运行测试.md",
+      "candidate_headings": [
+        {
+          "line": 7368,
+          "title": "并行或连续的运行测试",
+          "score": 0.93
+        },
+        {
+          "line": 7493,
+          "title": "运行单个测试",
+          "score": 0.8
+        },
+        {
+          "line": 7510,
+          "title": "过滤运行多个测试",
+          "score": 0.6667
+        },
+        {
+          "line": 7452,
+          "title": "通过指定名字来运行部分测试",
+          "score": 0.4706
+        },
+        {
+          "line": 6885,
+          "title": "测试函数剖析",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "id": "item-048",
+      "order": 48,
+      "raw_line": 85,
+      "raw_text": "测试的组织结构 2.5.3",
+      "title": "测试的组织结构",
+      "number": "2.5.3",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 7570,
+      "output_file": "chapters/048-2-5-3-测试的组织结构.md",
+      "candidate_headings": [
+        {
+          "line": 7570,
+          "level": 1,
+          "title": "测试的组织结构"
+        }
+      ]
+    },
+    {
+      "id": "item-049",
+      "order": 49,
+      "raw_line": 87,
+      "raw_text": "# 一个 I/O 项目：构建命令行程序 2.6",
+      "title": "一个 I/O 项目：构建命令行程序",
+      "number": "2.6",
+      "depth": 1,
+      "source_kind": "heading-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 7739,
+      "output_file": "chapters/049-2-6-一个-I-O-项目-构建命令行程序.md",
+      "candidate_headings": [
+        {
+          "line": 7739,
+          "title": "一个 I/O 项目：构建一个命令行程序",
+          "score": 0.9444
+        },
+        {
+          "line": 8005,
+          "title": "创建一个 Config 的构造函数",
+          "score": 0.3529
+        },
+        {
+          "line": 7765,
+          "title": "## 接受命令行参数",
+          "score": 0.2963
+        },
+        {
+          "line": 8179,
+          "title": "处理 main 中 run 返回的错误",
+          "score": 0.2778
+        },
+        {
+          "line": 8128,
+          "title": "从 main 提取逻辑",
+          "score": 0.2143
+        }
+      ]
+    },
+    {
+      "id": "item-050",
+      "order": 50,
+      "raw_line": 89,
+      "raw_text": "接受命令行参数 2.6.1",
+      "title": "接受命令行参数",
+      "number": "2.6.1",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 7765,
+      "output_file": "chapters/050-2-6-1-接受命令行参数.md",
+      "candidate_headings": [
+        {
+          "line": 7765,
+          "title": "## 接受命令行参数",
+          "score": 0.93
+        },
+        {
+          "line": 7787,
+          "title": "读取参数值",
+          "score": 0.3333
+        },
+        {
+          "line": 7946,
+          "title": "提取参数解析器",
+          "score": 0.2857
+        },
+        {
+          "line": 7824,
+          "title": "将参数值保存进变量",
+          "score": 0.25
+        },
+        {
+          "line": 8144,
+          "title": "从 run 函数中返回错误",
+          "score": 0.1111
+        }
+      ]
+    },
+    {
+      "id": "item-051",
+      "order": 51,
+      "raw_line": 90,
+      "raw_text": "读取文件 2.6.2",
+      "title": "读取文件",
+      "number": "2.6.2",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 7851,
+      "output_file": "chapters/051-2-6-2-读取文件.md",
+      "candidate_headings": [
+        {
+          "line": 7851,
+          "title": "## 读取文件",
+          "score": 0.93
+        },
+        {
+          "line": 7787,
+          "title": "读取参数值",
+          "score": 0.4444
+        },
+        {
+          "line": 7859,
+          "title": "文件名: poem.txt",
+          "score": 0.2857
+        },
+        {
+          "line": 7876,
+          "title": "文件名: src/main.rs",
+          "score": 0.25
+        },
+        {
+          "line": 7946,
+          "title": "提取参数解析器",
+          "score": 0.1818
+        }
+      ]
+    },
+    {
+      "id": "item-052",
+      "order": 52,
+      "raw_line": 91,
+      "raw_text": "重构以改进模块化与错误处理 2.6.3",
+      "title": "重构以改进模块化与错误处理",
+      "number": "2.6.3",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-manual",
+      "reason": "根据目录顺序与正文标题“重构改进模块性和错误处理”手工核定得到的 start_line。",
+      "start_line": 7912,
+      "output_file": "chapters/052-2-6-3-重构以改进模块化与错误处理.md",
+      "candidate_headings": [
+        {
+          "line": 7912,
+          "title": "manual-resolution",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "item-053",
+      "order": 53,
+      "raw_line": 92,
+      "raw_text": "采用测试驱动开发完善库的功能 2.6.4",
+      "title": "采用测试驱动开发完善库的功能",
+      "number": "2.6.4",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 8240,
+      "output_file": "chapters/053-2-6-4-采用测试驱动开发完善库的功能.md",
+      "candidate_headings": [
+        {
+          "line": 8240,
+          "level": 2,
+          "title": "采用测试驱动开发完善库的功能"
+        }
+      ]
+    },
+    {
+      "id": "item-054",
+      "order": 54,
+      "raw_line": 93,
+      "raw_text": "处理环境变量 2.6.5",
+      "title": "处理环境变量",
+      "number": "2.6.5",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 8464,
+      "output_file": "chapters/054-2-6-5-处理环境变量.md",
+      "candidate_headings": [
+        {
+          "line": 8464,
+          "title": "## 处理环境变量",
+          "score": 0.93
+        },
+        {
+          "line": 8259,
+          "title": "编写失败测试",
+          "score": 0.0
+        },
+        {
+          "line": 8266,
+          "title": "pub fn search<'a>(query: &str, contents: &'a str) -> Vec<'a str> {",
+          "score": 0.0
+        },
+        {
+          "line": 8267,
+          "title": "vec![ ]",
+          "score": 0.0
+        },
+        {
+          "line": 8268,
+          "title": "}",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "item-055",
+      "order": 55,
+      "raw_line": 94,
+      "raw_text": "将错误信息输出到标准错误而不是标准输出 2.6.6",
+      "title": "将错误信息输出到标准错误而不是标准输出",
+      "number": "2.6.6",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 8635,
+      "output_file": "chapters/055-2-6-6-将错误信息输出到标准错误而不是标准输出.md",
+      "candidate_headings": [
+        {
+          "line": 8635,
+          "level": 2,
+          "title": "将错误信息输出到标准错误而不是标准输出"
+        }
+      ]
+    },
+    {
+      "id": "item-056",
+      "order": 56,
+      "raw_line": 96,
+      "raw_text": "# Rust 编程思想",
+      "title": "Rust 编程思想",
+      "number": null,
+      "depth": 0,
+      "source_kind": "heading-only",
+      "emit": false,
+      "status": "structural",
+      "reason": "目录中的结构性分组标题，默认不直接切分成章节文件。",
+      "start_line": null,
+      "output_file": "chapters/056-group-Rust-编程思想.md",
+      "candidate_headings": []
+    },
+    {
+      "id": "item-057",
+      "order": 57,
+      "raw_line": 98,
+      "raw_text": "# Rust 中的函数式语言功能：迭代器与闭包 3.1",
+      "title": "Rust 中的函数式语言功能：迭代器与闭包",
+      "number": "3.1",
+      "depth": 1,
+      "source_kind": "heading-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 8706,
+      "output_file": "chapters/057-3-1-Rust-中的函数式语言功能-迭代器与闭包.md",
+      "candidate_headings": [
+        {
+          "line": 8706,
+          "level": 1,
+          "title": "Rust 中的函数式语言功能：迭代器与闭包"
+        }
+      ]
+    },
+    {
+      "id": "item-058",
+      "order": 58,
+      "raw_line": 100,
+      "raw_text": "闭包：可以捕获其环境的匿名函数 3.1.1",
+      "title": "闭包：可以捕获其环境的匿名函数",
+      "number": "3.1.1",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 8727,
+      "output_file": "chapters/058-3-1-1-闭包-可以捕获其环境的匿名函数.md",
+      "candidate_headings": [
+        {
+          "line": 8727,
+          "title": "闭包：可以捕获环境的匿名函数",
+          "score": 0.9655
+        },
+        {
+          "line": 9086,
+          "title": "闭包会捕获其环境",
+          "score": 0.6364
+        },
+        {
+          "line": 8735,
+          "title": "使用闭包创建行为的抽象",
+          "score": 0.24
+        },
+        {
+          "line": 8808,
+          "title": "使用函数重构",
+          "score": 0.2
+        },
+        {
+          "line": 8871,
+          "title": "闭包类型推断和注解",
+          "score": 0.1739
+        }
+      ]
+    },
+    {
+      "id": "item-059",
+      "order": 59,
+      "raw_line": 101,
+      "raw_text": "使用迭代器处理元素序列 3.1.2",
+      "title": "使用迭代器处理元素序列",
+      "number": "3.1.2",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 9159,
+      "output_file": "chapters/059-3-1-2-使用迭代器处理元素序列.md",
+      "candidate_headings": [
+        {
+          "line": 9159,
+          "level": 1,
+          "title": "使用迭代器处理元素序列"
+        }
+      ]
+    },
+    {
+      "id": "item-060",
+      "order": 60,
+      "raw_line": 103,
+      "raw_text": "改进之前的 I/O 项目 3.1.3",
+      "title": "改进之前的 I/O 项目",
+      "number": "3.1.3",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-manual",
+      "reason": "根据目录顺序与正文标题“改进 I/O 项目”手工核定得到的 start_line。",
+      "start_line": 9473,
+      "output_file": "chapters/060-3-1-3-改进之前的-I-O-项目.md",
+      "candidate_headings": [
+        {
+          "line": 9473,
+          "title": "manual-resolution",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "item-061",
+      "order": 61,
+      "raw_line": 105,
+      "raw_text": "性能比较：循环对迭代器 3.1.4",
+      "title": "性能比较：循环对迭代器",
+      "number": "3.1.4",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-manual",
+      "reason": "根据目录顺序与正文标题“性能对比：循环 VS 迭代器”手工核定得到的 start_line。",
+      "start_line": 9589,
+      "output_file": "chapters/061-3-1-4-性能比较-循环对迭代器.md",
+      "candidate_headings": [
+        {
+          "line": 9589,
+          "title": "manual-resolution",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "item-062",
+      "order": 62,
+      "raw_line": 107,
+      "raw_text": "更多关于 Cargo 和 Crates.io 的内容 3.2",
+      "title": "更多关于 Cargo 和 Crates.io 的内容",
+      "number": "3.2",
+      "depth": 1,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-manual",
+      "reason": "根据目录顺序与正文标题“进一步认识 Cargo 和 Crates.io”手工核定得到的 start_line。",
+      "start_line": 9643,
+      "output_file": "chapters/062-3-2-更多关于-Cargo-和-Crates.io-的内容.md",
+      "candidate_headings": [
+        {
+          "line": 9643,
+          "title": "manual-resolution",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "item-063",
+      "order": 63,
+      "raw_line": 109,
+      "raw_text": "采用发布配置自定义构建 3.2.1",
+      "title": "采用发布配置自定义构建",
+      "number": "3.2.1",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 9657,
+      "output_file": "chapters/063-3-2-1-采用发布配置自定义构建.md",
+      "candidate_headings": [
+        {
+          "line": 9657,
+          "level": 1,
+          "title": "采用发布配置自定义构建"
+        }
+      ]
+    },
+    {
+      "id": "item-064",
+      "order": 64,
+      "raw_line": 111,
+      "raw_text": "将 crate 发布到 Crates.io 3.2.2",
+      "title": "将 crate 发布到 Crates.io",
+      "number": "3.2.2",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 9696,
+      "output_file": "chapters/064-3-2-2-将-crate-发布到-Crates.io.md",
+      "candidate_headings": [
+        {
+          "line": 9696,
+          "level": 1,
+          "title": "将 crate 发布到 Crates.io"
+        }
+      ]
+    },
+    {
+      "id": "item-065",
+      "order": 65,
+      "raw_line": 113,
+      "raw_text": "Cargo 工作空间 3.2.3",
+      "title": "Cargo 工作空间",
+      "number": "3.2.3",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 10011,
+      "output_file": "chapters/065-3-2-3-Cargo-工作空间.md",
+      "candidate_headings": [
+        {
+          "line": 10011,
+          "level": 1,
+          "title": "Cargo 工作空间"
+        }
+      ]
+    },
+    {
+      "id": "item-066",
+      "order": 66,
+      "raw_line": 115,
+      "raw_text": "使用 cargo install 从 Crates.io 安装二进制文件 3.2.4",
+      "title": "使用 cargo install 从 Crates.io 安装二进制文件",
+      "number": "3.2.4",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 10226,
+      "output_file": "chapters/066-3-2-4-使用-cargo-install-从-Crates.io-安装二进制文件.md",
+      "candidate_headings": [
+        {
+          "line": 10226,
+          "level": 1,
+          "title": "使用 cargo install 从 Crates.io 安装二进制文件"
+        }
+      ]
+    },
+    {
+      "id": "item-067",
+      "order": 67,
+      "raw_line": 117,
+      "raw_text": "Cargo 自定义扩展命令 3.2.5",
+      "title": "Cargo 自定义扩展命令",
+      "number": "3.2.5",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 10250,
+      "output_file": "chapters/067-3-2-5-Cargo-自定义扩展命令.md",
+      "candidate_headings": [
+        {
+          "line": 10250,
+          "level": 1,
+          "title": "Cargo 自定义扩展命令"
+        }
+      ]
+    },
+    {
+      "id": "item-068",
+      "order": 68,
+      "raw_line": 119,
+      "raw_text": "智能指针 3.3",
+      "title": "智能指针",
+      "number": "3.3",
+      "depth": 1,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 10262,
+      "output_file": "chapters/068-3-3-智能指针.md",
+      "candidate_headings": [
+        {
+          "line": 10262,
+          "level": 1,
+          "title": "智能指针"
+        }
+      ]
+    },
+    {
+      "id": "item-069",
+      "order": 69,
+      "raw_line": 121,
+      "raw_text": "Box 指向堆上数据，并且可确定大小 3.3.1",
+      "title": "Box 指向堆上数据，并且可确定大小",
+      "number": "3.3.1",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-manual",
+      "reason": "根据目录顺序与正文标题“使用 Box <T> 指向堆上的数据”手工核定得到的 start_line。",
+      "start_line": 10288,
+      "output_file": "chapters/069-3-3-1-Box-指向堆上数据,并且可确定大小.md",
+      "candidate_headings": [
+        {
+          "line": 10288,
+          "title": "manual-resolution",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "item-070",
+      "order": 70,
+      "raw_line": 123,
+      "raw_text": "通过 Deref trait 将智能指针当作常规引用处理 3.3.2",
+      "title": "通过 Deref trait 将智能指针当作常规引用处理",
+      "number": "3.3.2",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 10434,
+      "output_file": "chapters/070-3-3-2-通过-Deref-trait-将智能指针当作常规引用处理.md",
+      "candidate_headings": [
+        {
+          "line": 10434,
+          "level": 1,
+          "title": "通过 Deref trait 将智能指针当作常规引用处理"
+        }
+      ]
+    },
+    {
+      "id": "item-071",
+      "order": 71,
+      "raw_line": 125,
+      "raw_text": "Drop Trait 运行清理代码 3.3.3",
+      "title": "Drop Trait 运行清理代码",
+      "number": "3.3.3",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 10660,
+      "output_file": "chapters/071-3-3-3-Drop-Trait-运行清理代码.md",
+      "candidate_headings": [
+        {
+          "line": 10660,
+          "title": "使用 Drop Trait 运行清理代码",
+          "score": 0.93
+        },
+        {
+          "line": 10756,
+          "title": "fn drop(&mut self) {",
+          "score": 0.3871
+        },
+        {
+          "line": 10524,
+          "title": "通过实现 Deref trait 将某类型像引用一样处理",
+          "score": 0.359
+        },
+        {
+          "line": 11033,
+          "title": "pub trait Messenger {",
+          "score": 0.3333
+        },
+        {
+          "line": 10716,
+          "title": "通过 std::mem::drop 提早丢弃值",
+          "score": 0.2857
+        }
+      ]
+    },
+    {
+      "id": "item-072",
+      "order": 72,
+      "raw_line": 127,
+      "raw_text": "Rc 引用计数智能指针 3.3.4",
+      "title": "Rc 引用计数智能指针",
+      "number": "3.3.4",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-manual",
+      "reason": "根据目录顺序与正文标题“Rc<T> 引用计数智能指针”手工核定得到的 start_line。",
+      "start_line": 10786,
+      "output_file": "chapters/072-3-3-4-Rc-引用计数智能指针.md",
+      "candidate_headings": [
+        {
+          "line": 10786,
+          "title": "manual-resolution",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "item-073",
+      "order": 73,
+      "raw_line": 129,
+      "raw_text": "RefCell 与内部可变性模式 3.3.5",
+      "title": "RefCell 与内部可变性模式",
+      "number": "3.3.5",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 10899,
+      "output_file": "chapters/073-3-3-5-RefCell-与内部可变性模式.md",
+      "candidate_headings": [
+        {
+          "line": 10899,
+          "title": "RefCell<T> 和内部可变性模式",
+          "score": 0.9143
+        },
+        {
+          "line": 11088,
+          "title": "RefCell<T> 在运行时记录借用",
+          "score": 0.4571
+        },
+        {
+          "line": 11204,
+          "title": "use std::cell::RefCell;",
+          "score": 0.4375
+        },
+        {
+          "line": 11298,
+          "title": "use std::cell::RefCell;",
+          "score": 0.4375
+        },
+        {
+          "line": 11340,
+          "title": "use std::cell::RefCell;",
+          "score": 0.4375
+        }
+      ]
+    },
+    {
+      "id": "item-074",
+      "order": 74,
+      "raw_line": 131,
+      "raw_text": "引用循环与内存泄漏是安全的 3.3.6",
+      "title": "引用循环与内存泄漏是安全的",
+      "number": "3.3.6",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 11169,
+      "output_file": "chapters/074-3-3-6-引用循环与内存泄漏是安全的.md",
+      "candidate_headings": [
+        {
+          "line": 11169,
+          "title": "引用循环与内存泄漏",
+          "score": 0.93
+        },
+        {
+          "line": 11177,
+          "title": "制造引用循环",
+          "score": 0.4211
+        },
+        {
+          "line": 11313,
+          "title": "增加从子到父的引用",
+          "score": 0.1818
+        },
+        {
+          "line": 11386,
+          "title": "可视化 strong_count 和 weak_count 的改变",
+          "score": 0.1
+        },
+        {
+          "line": 10934,
+          "title": "内部可变性：不可变值的可变借用",
+          "score": 0.0741
+        }
+      ]
+    },
+    {
+      "id": "item-075",
+      "order": 75,
+      "raw_line": 133,
+      "raw_text": "无畏并发 3.4",
+      "title": "无畏并发",
+      "number": "3.4",
+      "depth": 1,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 11441,
+      "output_file": "chapters/075-3-4-无畏并发.md",
+      "candidate_headings": [
+        {
+          "line": 11441,
+          "level": 1,
+          "title": "无畏并发"
+        }
+      ]
+    },
+    {
+      "id": "item-076",
+      "order": 76,
+      "raw_line": 135,
+      "raw_text": "线程 3.4.1",
+      "title": "线程",
+      "number": "3.4.1",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-manual",
+      "reason": "根据目录顺序与正文标题“使用线程同时运行代码”手工核定得到的 start_line。",
+      "start_line": 11474,
+      "output_file": "chapters/076-3-4-1-线程.md",
+      "candidate_headings": [
+        {
+          "line": 11474,
+          "title": "manual-resolution",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "item-077",
+      "order": 77,
+      "raw_line": 137,
+      "raw_text": "消息传递 3.4.2",
+      "title": "消息传递",
+      "number": "3.4.2",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 11683,
+      "output_file": "chapters/077-3-4-2-消息传递.md",
+      "candidate_headings": [
+        {
+          "line": 11683,
+          "title": "使用消息传递在线程间传送数据",
+          "score": 0.93
+        },
+        {
+          "line": 11474,
+          "title": "使用线程同时运行代码",
+          "score": 0.0
+        },
+        {
+          "line": 11502,
+          "title": "使用 spawn 创建新线程",
+          "score": 0.0
+        },
+        {
+          "line": 11535,
+          "title": "使用 join 等待所有线程结束",
+          "score": 0.0
+        },
+        {
+          "line": 11597,
+          "title": "线程与 move 闭包",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "item-078",
+      "order": 78,
+      "raw_line": 139,
+      "raw_text": "共享状态 3.4.3",
+      "title": "共享状态",
+      "number": "3.4.3",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 11857,
+      "output_file": "chapters/078-3-4-3-共享状态.md",
+      "candidate_headings": [
+        {
+          "line": 11857,
+          "title": "共享状态并发",
+          "score": 0.93
+        },
+        {
+          "line": 12136,
+          "title": "继承，作为类型系统与代码共享",
+          "score": 0.2353
+        },
+        {
+          "line": 11906,
+          "title": "在线程间共享 Mutex<T>",
+          "score": 0.2222
+        },
+        {
+          "line": 11750,
+          "title": "通道与所有权转移",
+          "score": 0.0
+        },
+        {
+          "line": 11779,
+          "title": "发送多个值并观察接收者的等待",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "item-079",
+      "order": 79,
+      "raw_line": 141,
+      "raw_text": "可扩展的并发：Sync 与 Send 3.4.4",
+      "title": "可扩展的并发：Sync 与 Send",
+      "number": "3.4.4",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-manual",
+      "reason": "根据目录顺序与正文标题“使用 Sync 和 Send trait 的可扩展并发”手工核定得到的 start_line。",
+      "start_line": 12027,
+      "output_file": "chapters/079-3-4-4-可扩展的并发-Sync-与-Send.md",
+      "candidate_headings": [
+        {
+          "line": 12027,
+          "title": "manual-resolution",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "item-080",
+      "order": 80,
+      "raw_line": 143,
+      "raw_text": "Rust 的面向对象编程特性 3.5",
+      "title": "Rust 的面向对象编程特性",
+      "number": "3.5",
+      "depth": 1,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 12067,
+      "output_file": "chapters/080-3-5-Rust-的面向对象编程特性.md",
+      "candidate_headings": [
+        {
+          "line": 12067,
+          "title": "Rust 的面向对象特性",
+          "score": 0.9231
+        },
+        {
+          "line": 12075,
+          "title": "面向对象语言的特征",
+          "score": 0.4545
+        },
+        {
+          "line": 11884,
+          "title": "Mutex<T> 的 API",
+          "score": 0.2857
+        },
+        {
+          "line": 12045,
+          "title": "Sync 允许多线程访问",
+          "score": 0.2308
+        },
+        {
+          "line": 12019,
+          "title": "RefCell<T> / Rc<T> 与 Mutex<T> / Arc<T> 的相似 性",
+          "score": 0.2222
+        }
+      ]
+    },
+    {
+      "id": "item-081",
+      "order": 81,
+      "raw_line": 145,
+      "raw_text": "面向对象语言的特点 3.5.1",
+      "title": "面向对象语言的特点",
+      "number": "3.5.1",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-manual",
+      "reason": "根据目录顺序与正文标题“面向对象语言的特征”手工核定得到的 start_line。",
+      "start_line": 12075,
+      "output_file": "chapters/081-3-5-1-面向对象语言的特点.md",
+      "candidate_headings": [
+        {
+          "line": 12075,
+          "title": "manual-resolution",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "item-082",
+      "order": 82,
+      "raw_line": 147,
+      "raw_text": "为使用不同类型的值而设计的 trait 对象 3.5.2",
+      "title": "为使用不同类型的值而设计的 trait 对象",
+      "number": "3.5.2",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 12154,
+      "output_file": "chapters/082-3-5-2-为使用不同类型的值而设计的-trait-对象.md",
+      "candidate_headings": [
+        {
+          "line": 12154,
+          "level": 1,
+          "title": "为使用不同类型的值而设计的 trait 对象"
+        }
+      ]
+    },
+    {
+      "id": "item-083",
+      "order": 83,
+      "raw_line": 149,
+      "raw_text": "面向对象设计模式的实现 3.5.3",
+      "title": "面向对象设计模式的实现",
+      "number": "3.5.3",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 12379,
+      "output_file": "chapters/083-3-5-3-面向对象设计模式的实现.md",
+      "candidate_headings": [
+        {
+          "line": 12379,
+          "level": 1,
+          "title": "面向对象设计模式的实现"
+        }
+      ]
+    },
+    {
+      "id": "item-084",
+      "order": 84,
+      "raw_line": 151,
+      "raw_text": "# 高级主题",
+      "title": "高级主题",
+      "number": null,
+      "depth": 0,
+      "source_kind": "heading-only",
+      "emit": false,
+      "status": "structural",
+      "reason": "目录中的结构性分组标题，默认不直接切分成章节文件。",
+      "start_line": null,
+      "output_file": "chapters/084-group-高级主题.md",
+      "candidate_headings": []
+    },
+    {
+      "id": "item-085",
+      "order": 85,
+      "raw_line": 153,
+      "raw_text": "模式用来匹配值的结构 4.1",
+      "title": "模式用来匹配值的结构",
+      "number": "4.1",
+      "depth": 1,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 12777,
+      "output_file": "chapters/085-4-1-模式用来匹配值的结构.md",
+      "candidate_headings": [
+        {
+          "line": 12777,
+          "level": 1,
+          "title": "模式用来匹配值的结构"
+        }
+      ]
+    },
+    {
+      "id": "item-086",
+      "order": 86,
+      "raw_line": 155,
+      "raw_text": "所有可能会用到模式的位置 4.1.1",
+      "title": "所有可能会用到模式的位置",
+      "number": "4.1.1",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 12797,
+      "output_file": "chapters/086-4-1-1-所有可能会用到模式的位置.md",
+      "candidate_headings": [
+        {
+          "line": 12797,
+          "level": 1,
+          "title": "所有可能会用到模式的位置"
+        }
+      ]
+    },
+    {
+      "id": "item-087",
+      "order": 87,
+      "raw_line": 157,
+      "raw_text": "Refutability：何时模式可能会匹配失败 4.1.2",
+      "title": "Refutability：何时模式可能会匹配失败",
+      "number": "4.1.2",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-manual",
+      "reason": "根据目录顺序与正文标题“Refutability（可反驳性）: 模式是否会匹配失效”手工核定得到的 start_line。",
+      "start_line": 12966,
+      "output_file": "chapters/087-4-1-2-Refutability-何时模式可能会匹配失败.md",
+      "candidate_headings": [
+        {
+          "line": 12966,
+          "title": "manual-resolution",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "item-088",
+      "order": 88,
+      "raw_line": 159,
+      "raw_text": "模式的全部语法 4.1.3",
+      "title": "模式的全部语法",
+      "number": "4.1.3",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-manual",
+      "reason": "根据目录顺序与正文标题“所有的模式语法”手工核定得到的 start_line。",
+      "start_line": 13029,
+      "output_file": "chapters/088-4-1-3-模式的全部语法.md",
+      "candidate_headings": [
+        {
+          "line": 13029,
+          "title": "manual-resolution",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "item-089",
+      "order": 89,
+      "raw_line": 161,
+      "raw_text": "高级特征 4.2",
+      "title": "高级特征",
+      "number": "4.2",
+      "depth": 1,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 13494,
+      "output_file": "chapters/089-4-2-高级特征.md",
+      "candidate_headings": [
+        {
+          "line": 13494,
+          "level": 1,
+          "title": "高级特征"
+        }
+      ]
+    },
+    {
+      "id": "item-090",
+      "order": 90,
+      "raw_line": 163,
+      "raw_text": "不安全的 Rust 4.2.1",
+      "title": "不安全的 Rust",
+      "number": "4.2.1",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 13512,
+      "output_file": "chapters/090-4-2-1-不安全的-Rust.md",
+      "candidate_headings": [
+        {
+          "line": 13512,
+          "title": "不安全 Rust",
+          "score": 0.9412
+        },
+        {
+          "line": 13524,
+          "title": "不安全的超级力量",
+          "score": 0.5
+        },
+        {
+          "line": 13782,
+          "title": "实现不安全 trait",
+          "score": 0.4706
+        },
+        {
+          "line": 13721,
+          "title": "从其它语言调用 Rust 函数",
+          "score": 0.4167
+        },
+        {
+          "line": 13622,
+          "title": "创建不安全代码的安全抽象",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "id": "item-091",
+      "order": 91,
+      "raw_line": 165,
+      "raw_text": "高级 trait 4.2.2",
+      "title": "高级 trait",
+      "number": "4.2.2",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 13804,
+      "output_file": "chapters/091-4-2-2-高级-trait.md",
+      "candidate_headings": [
+        {
+          "line": 13804,
+          "level": 1,
+          "title": "高级 trait"
+        }
+      ]
+    },
+    {
+      "id": "item-092",
+      "order": 92,
+      "raw_line": 167,
+      "raw_text": "高级类型 4.2.3",
+      "title": "高级类型",
+      "number": "4.2.3",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 14239,
+      "output_file": "chapters/092-4-2-3-高级类型.md",
+      "candidate_headings": [
+        {
+          "line": 14239,
+          "level": 1,
+          "title": "高级类型"
+        }
+      ]
+    },
+    {
+      "id": "item-093",
+      "order": 93,
+      "raw_line": 168,
+      "raw_text": "高级函数与闭包 4.2.4",
+      "title": "高级函数与闭包",
+      "number": "4.2.4",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 14440,
+      "output_file": "chapters/093-4-2-4-高级函数与闭包.md",
+      "candidate_headings": [
+        {
+          "line": 14440,
+          "level": 1,
+          "title": "高级函数与闭包"
+        }
+      ]
+    },
+    {
+      "id": "item-094",
+      "order": 94,
+      "raw_line": 169,
+      "raw_text": "宏 4.2.5",
+      "title": "宏",
+      "number": "4.2.5",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 14544,
+      "output_file": "chapters/094-4-2-5-宏.md",
+      "candidate_headings": [
+        {
+          "line": 14544,
+          "level": 1,
+          "title": "宏"
+        }
+      ]
+    },
+    {
+      "id": "item-095",
+      "order": 95,
+      "raw_line": 171,
+      "raw_text": "最后的项目: 构建多线程 web server 4.3",
+      "title": "最后的项目: 构建多线程 web server",
+      "number": "4.3",
+      "depth": 1,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 14861,
+      "output_file": "chapters/095-4-3-最后的项目-构建多线程-web-server.md",
+      "candidate_headings": [
+        {
+          "line": 14861,
+          "level": 1,
+          "title": "最后的项目: 构建多线程 web server"
+        }
+      ]
+    },
+    {
+      "id": "item-096",
+      "order": 96,
+      "raw_line": 173,
+      "raw_text": "单线程 web server 4.3.1",
+      "title": "单线程 web server",
+      "number": "4.3.1",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved-fuzzy",
+      "reason": "按目录顺序在相邻已知边界之间进行模糊标题匹配后自动解析得到的 start_line。",
+      "start_line": 14893,
+      "output_file": "chapters/096-4-3-1-单线程-web-server.md",
+      "candidate_headings": [
+        {
+          "line": 14893,
+          "title": "构建单线程 web server",
+          "score": 0.9333
+        },
+        {
+          "line": 15143,
+          "title": "use std::net::TcpStream;",
+          "score": 0.3429
+        },
+        {
+          "line": 15142,
+          "title": "use std::io::prelude:*;",
+          "score": 0.2857
+        },
+        {
+          "line": 15150,
+          "title": "let get = b\"GET / HTTP/1.1\\r\\n\";",
+          "score": 0.2857
+        },
+        {
+          "line": 15147,
+          "title": "let mut buffer = [0; 512];",
+          "score": 0.2759
+        }
+      ]
+    },
+    {
+      "id": "item-097",
+      "order": 97,
+      "raw_line": 174,
+      "raw_text": "将单线程 server 变为多线程 server 4.3.2",
+      "title": "将单线程 server 变为多线程 server",
+      "number": "4.3.2",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 15168,
+      "output_file": "chapters/097-4-3-2-将单线程-server-变为多线程-server.md",
+      "candidate_headings": [
+        {
+          "line": 15168,
+          "level": 1,
+          "title": "将单线程 server 变为多线程 server"
+        }
+      ]
+    },
+    {
+      "id": "item-098",
+      "order": 98,
+      "raw_line": 175,
+      "raw_text": "优雅停机与清理 4.3.3",
+      "title": "优雅停机与清理",
+      "number": "4.3.3",
+      "depth": 2,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 15692,
+      "output_file": "chapters/098-4-3-3-优雅停机与清理.md",
+      "candidate_headings": [
+        {
+          "line": 15692,
+          "level": 1,
+          "title": "优雅停机与清理"
+        }
+      ]
+    },
+    {
+      "id": "item-099",
+      "order": 99,
+      "raw_line": 177,
+      "raw_text": "附录 4.4",
+      "title": "附录",
+      "number": "4.4",
+      "depth": 1,
+      "source_kind": "plain-numbered",
+      "emit": true,
+      "status": "auto-resolved",
+      "reason": "唯一命中的正文标题，已自动填充 start_line。",
+      "start_line": 15979,
+      "output_file": "chapters/099-4-4-附录.md",
+      "candidate_headings": [
+        {
+          "line": 15979,
+          "level": 1,
+          "title": "附录"
+        }
+      ]
+    }
+  ]
+}

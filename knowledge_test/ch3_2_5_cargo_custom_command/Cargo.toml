@@ -1,0 +1,10 @@
+[package]
+name = "ch3_2_5_cargo_custom_command"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[[bin]]
+name = "cargo-hello-study"
+path = "src/main.rs"

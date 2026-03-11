@@ -1,0 +1,1066 @@
+# Body Heading Inventory
+
+- line 189: h1 入门指南
+- line 199: h1 安装
+- line 211: h1 命令行标记
+- line 215: h1 在 Linux 或 macOS 上安装 rustup
+- line 245: h1 在 Windows 上安装 rustup
+- line 251: h1 更新和卸载
+- line 265: h1 故障排除（Troubleshooting）
+- line 283: h1 本地文档
+- line 289: h1 Hello, World!
+- line 299: h1 创建项目目录
+- line 319: h1 编写并运行 Rust 程序
+- line 351: h1 分析这个 Rust 程序
+- line 382: h1 编译和运行是彼此独立的步骤
+- line 419: h1 Hello, Cargo!
+- line 437: h1 使用 Cargo 创建项目
+- line 487: h1 构建并运行 Cargo 项目
+- line 543: h1 发布（release）构建
+- line 547: h1 把 Cargo 当作习惯
+- line 561: h1 总结
+- line 573: h1 编写 猜猜看 游戏
+- line 583: h1 准备一个新项目
+- line 627: h1 处理一次猜测
+- line 664: h1 使用变量储存值
+- line 707: h1 使用 Result 类型来处理潜在的错误
+- line 746: h1 使用 println! 占位符打印值
+- line 760: h1 测试第一部分代码
+- line 773: h1 生成一个秘密数字
+- line 777: h1 使用 crate 来增加更多功能
+- line 832: h1 Cargo.lock 文件确保构建是可重现的
+- line 838: h1 更新 crate 到一个新版本
+- line 860: h1 生成一个随机数
+- line 894: h1 比较猜测的数字和秘密数字
+- line 983: h1 使用循环来允许多次猜测
+- line 1025: h1 猜测正确后退出
+- line 1036: h1 处理无效输入
+- line 1080: h1 总结
+- line 1088: h1 常见编程概念
+- line 1096: h1 关键字
+- line 1100: h1 变量和可变性
+- line 1159: h1 变量和常量的区别
+- line 1181: h1 隐藏（Shadowing）
+- line 1232: h1 数据类型
+- line 1261: h1 标量类型
+- line 1265: h1 整型
+- line 1289: h1 整型溢出
+- line 1295: h1 浮点型
+- line 1307: h1 数值运算
+- line 1330: h1 布尔型
+- line 1345: h1 字符类型
+- line 1357: h1 复合类型
+- line 1361: h1 元组类型
+- line 1391: h1 数组类型
+- line 1462: h1 函数
+- line 1498: h1 函数参数
+- line 1558: h1 包含语句和表达式的函数体
+- line 1613: h1 具有返回值的函数
+- line 1676: h1 注释
+- line 1720: h1 控制流
+- line 1728: h1 if 表达式
+- line 1798: h1 使用 else if 处理多重条件
+- line 1821: h1 在 let 语句中使用 if
+- line 1868: h1 使用循环重复执行
+- line 1874: h1 使用 loop 重复执行代码
+- line 1908: h1 从循环返回
+- line 1919: h1 while 条件循环
+- line 1934: h1 使用 for 遍历集合
+- line 1995: h1 总结
+- line 2009: h1 认识所有权
+- line 2017: h1 什么是所有权？
+- line 2035: h1 栈（Stack）与堆（Heap）
+- line 2053: h1 所有权规则
+- line 2061: h1 变量作用域
+- line 2087: h1 String 类型
+- line 2111: h1 内存与分配
+- line 2135: h1 变量与数据交互的方式（一）：移动
+- line 2210: h1 变量与数据交互的方式（二）：克隆
+- line 2226: h1 只在栈上的数据：拷贝
+- line 2248: h1 所有权与函数
+- line 2257: h1 示例 4-3：带有所有权和作用域注释的函数
+- line 2261: h1 返回值与作用域
+- line 2280: h1 示例 4-4: 转移返回值的所有权
+- line 2298: h1 引用与借用
+- line 2327: h1 s.len()
+- line 2371: h1 可变引用
+- line 2470: h1 悬垂引用（Dangling References）
+- line 2522: h1 引用的规则
+- line 2531: h1 Slice 类型
+- line 2591: h1 let bytes = s.as_bytes();
+- line 2593: h1 for (i, &item) in bytes_iter(). enumerate()
+- line 2595: h1 if item == b' ' {
+- line 2596: h1 return i;
+- line 2600: h1 s.len()
+- line 2627: h1 字符串 slice
+- line 2715: h1 字符串字面值就是 slice
+- line 2725: h1 字符串 slice 作为参数
+- line 2747: h1 let bytes = s.as_bytes();
+- line 2749: h1 for (i, &item) in bytes_iter(). enumerate()
+- line 2751: h1 if item == b' ' {
+- line 2752: h1 return &s[0..i];
+- line 2772: h1 其他类型的 slice
+- line 2787: h1 总结
+- line 2793: h1 使用结构体组织相关联的数据
+- line 2801: h1 定义并实例化结构体
+- line 2825: h1 struct User {
+- line 2826: h1 username: String,
+- line 2827: h1 email: String,
+- line 2828: h1 sign_in_count: u64,
+- line 2829: h1 active: bool,
+- line 2830: h1 }
+- line 2845: h1 struct User {
+- line 2846: h1 username: String,
+- line 2847: h1 email: String,
+- line 2848: h1 sign_in_count: u64,
+- line 2849: h1 active: bool,
+- line 2850: h1 }
+- line 2867: h1 struct User {
+- line 2868: h1 username: String,
+- line 2869: h1 email: String,
+- line 2870: h1 sign_in_count: u64,
+- line 2871: h1 active: bool,
+- line 2872: h1 }
+- line 2888: h1 变量与字段同名时的字段初始化简写语法
+- line 2893: h1 struct User {
+- line 2894: h1 username: String,
+- line 2895: h1 email: String,
+- line 2896: h1 sign_in_count: u64,
+- line 2897: h1 active: bool,
+- line 2898: h1 }
+- line 2913: h1 使用结构体更新语法从其他实例创建实例
+- line 2920: h1 struct User {
+- line 2921: h1 username: String,
+- line 2922: h1 email: String,
+- line 2923: h1 sign_in_count: u64,
+- line 2924: h1 active: bool,
+- line 2925: h1 }
+- line 2927: h1 let user1 = User {
+- line 2928: h1 email: String::from("someone@example.com"),
+- line 2929: h1 username: String::from("someusername123"),
+- line 2930: h1 active: true,
+- line 2931: h1 sign_in_count: 1,
+- line 2932: h1 };
+- line 2947: h1 struct User {
+- line 2948: h1 username: String,
+- line 2949: h1 email: String,
+- line 2950: h1 sign_in_count: u64,
+- line 2951: h1 active: bool,
+- line 2952: h1 }
+- line 2954: h1 let user1 = User {
+- line 2955: h1 email: String::from("someone@example.com"),
+- line 2956: h1 username: String::from("someusername123"),
+- line 2957: h1 active: true,
+- line 2958: h1 sign_in_count: 1,
+- line 2959: h1 };
+- line 2972: h1 使用没有命名字段的元组结构体来创建不同的类型
+- line 2987: h1 没有任何字段的类单元结构体
+- line 2991: h1 结构体数据的所有权
+- line 3033: h1 一个使用结构体的示例程序
+- line 3063: h1 使用元组重构
+- line 3079: h1 使用结构体重构：赋予更多意义
+- line 3107: h1 通过派生 trait 增加实用功能
+- line 3192: h1 方法语法
+- line 3200: h1 定义方法
+- line 3236: h1 -> 运算符到哪去了？
+- line 3245: h1 [derive(Debug, Copy, Clone)]
+- line 3246: h1 struct Point {
+- line 3247: h1 x: f64,
+- line 3248: h1 y: f64,
+- line 3249: h1 }
+- line 3250: h1 impl Point {
+- line 3251: h1 fn distance(&self, other: &Point) -> f64 {
+- line 3252: h1 let x_squared = f64::powi(other.x - self.x, 2);
+- line 3253: h1 let y_squared = f64::powi(other.y - self.y, 2);
+- line 3254: h1 f64::sqrt(x_squared + y_squared)
+- line 3255: h1 }
+- line 3256: h1 }
+- line 3257: h1 let p1 = Point { x: 0.0, y: 0.0 };
+- line 3258: h1 let p2 = Point { x: 5.0, y: 6.5 };
+- line 3265: h1 带有更多参数的方法
+- line 3291: h1 width: u32,
+- line 3292: h1 height: u32,
+- line 3307: h1 关联函数
+- line 3316: h1 #[derive(Debug)]
+- line 3317: h1 struct Rectangle {
+- line 3318: h1 width: u32,
+- line 3319: h1 height: u32,
+- line 3320: h1 }
+- line 3321: h1 impl Rectangle {
+- line 3329: h1 多个 impl 块
+- line 3334: h1 #[derive(Debug)]
+- line 3335: h1 struct Rectangle {
+- line 3336: h1 width: u32,
+- line 3337: h1 height: u32,
+- line 3338: h1 }
+- line 3356: h1 总结
+- line 3362: h1 枚举和模式匹配
+- line 3372: h1 定义枚举
+- line 3392: h1 枚举值
+- line 3397: h1 enum IpAddrKind {
+- line 3398: h1 V4,
+- line 3399: h1 V6,
+- line 3400: h1 }
+- line 3409: h1 enum IpAddrKind {
+- line 3410: h1 V4,
+- line 3411: h1 V6,
+- line 3412: h1 }
+- line 3413: h1 fn route(ip_type: IpAddrKind) {}
+- line 3419: h1 enum IpAddrKind {
+- line 3420: h1 V4,
+- line 3421: h1 V6,
+- line 3422: h1 }
+- line 3424: h1 fn route(ip_type: IpAddrKind) {
+- line 3425: h1 route(IpAddrKind::V4);
+- line 3527: h1 enum Message {
+- line 3528: h1 Quit,
+- line 3529: h1 Move { x: i32, y: i32 },
+- line 3530: h1 Write(String),
+- line 3531: h1 ChangeColor(i32, i32, i32),
+- line 3532: h1 }
+- line 3549: h1 Option 枚举和其相对于空值的优势
+- line 3616: h1 match 控制流运算符
+- line 3658: h1 enum Coin {
+- line 3659: h1 Penny,
+- line 3660: h1 Nickel,
+- line 3661: h1 Dime,
+- line 3662: h1 Quarter,
+- line 3663: h1 }
+- line 3676: h1 绑定值的模式
+- line 3704: h1 [derive(Debug)]
+- line 3705: h1 enum UsState {
+- line 3706: h1 Alabama,
+- line 3707: h1 Alaska,
+- line 3708: h1 }
+- line 3710: h1 enum Coin {
+- line 3711: h1 Penny,
+- line 3712: h1 Nickel,
+- line 3713: h1 Dime,
+- line 3714: h1 Quarter(UsState),
+- line 3715: h1 }
+- line 3734: h1 匹配 Option<T>
+- line 3756: h1 匹配 Some(T)
+- line 3776: h1 匹配是穷尽的
+- line 3800: h1 通配符
+- line 3813: h1 if let 简单控制流
+- line 3844: h1 #[derive(Debug)]
+- line 3845: h1 enum UsState {
+- line 3846: h1 Alabama,
+- line 3847: h1 Alaska,
+- line 3848: h1 }
+- line 3850: h1 enum Coin {
+- line 3851: h1 Penny,
+- line 3852: h1 Nickel,
+- line 3853: h1 Dime,
+- line 3854: h1 Quarter(UsState),
+- line 3855: h1 }
+- line 3856: h1 let coin = Coin::Penny;
+- line 3866: h1 [derive(Debug)]
+- line 3867: h1 enum UsState {
+- line 3868: h1 Alabama,
+- line 3869: h1 Alaska,
+- line 3870: h1 }
+- line 3872: h1 enum Coin {
+- line 3873: h1 Penny,
+- line 3874: h1 Nickel,
+- line 3875: h1 Dime,
+- line 3876: h1 Quarter(UsState),
+- line 3877: h1 }
+- line 3878: h1 let coin = Coin::Penny;
+- line 3890: h1 总结
+- line 3898: h1 使用包、Crate和模块管理不断增长的项目
+- line 3921: h1 包和 crate
+- line 3955: h1 定义模块来控制作用域与私有性
+- line 4010: h1 路径用于引用模块树中的项
+- line 4082: h1 使用 pub 关键字暴露路径
+- line 4153: h1 使用 super 起始的相对路径
+- line 4170: h1 fn main() {}
+- line 4177: h1 创建公有的结构体和枚举
+- line 4211: h1 示例 7-9: 带有公有和私有字段的结构体
+- line 4236: h1 使用 use 关键字将名称引入作用域
+- line 4260: h1 fn main() {}
+- line 4287: h1 创建惯用的 use 路径
+- line 4305: h1 fn main() {}
+- line 4355: h1 使用 pub use 重导出名称
+- line 4385: h1 使用外部包
+- line 4411: h1 嵌套路径来消除大量的 use 行
+- line 4459: h1 通过 glob 运算符将所有的公有定义引入作用域
+- line 4471: h1 将模块分割进不同文件
+- line 4524: h1 总结
+- line 4530: h1 常见集合
+- line 4544: h1 vector 用来储存一系列的值
+- line 4552: h1 新建 vector
+- line 4574: h1 更新 vector
+- line 4590: h1 丢弃 vector 时也会丢弃其所有元素
+- line 4601: h1 读取 vector 的元素
+- line 4667: h1 遍历 vector 中的元素
+- line 4693: h1 使用枚举来储存多种类型
+- line 4712: h1 使用字符串存储 UTF-8 编码的文本
+- line 4722: h1 什么是字符串？
+- line 4730: h1 新建字符串
+- line 4783: h1 更新字符串
+- line 4787: h1 使用 push_str 和 push 附加字符串
+- line 4868: h1 索引字符串
+- line 4893: h1 内部表现
+- line 4916: h1 字节、标量值和字形簇！天呐！
+- line 4942: h1 字符串 slice
+- line 4961: h1 遍历字符串的方法
+- line 4997: h1 字符串并不简单
+- line 5003: h1 哈希 map 储存键值对
+- line 5015: h1 新建一个哈希 map
+- line 5043: h1 哈希 map 和所有权
+- line 5061: h1 访问哈希 map 中的值
+- line 5091: h1 更新哈希 map
+- line 5095: h1 覆盖一个值
+- line 5109: h1 只在键没有对应值时插入
+- line 5126: h1 根据旧值更新一个值
+- line 5141: h1 哈希函数
+- line 5147: h1 总结
+- line 5164: h1 错误处理
+- line 5176: h1 panic! 与不可恢复的错误
+- line 5184: h1 对应 panic 时的栈展开或终止
+- line 5220: h1 使用 panic! 的 backtrace
+- line 5312: h1 Result 与可恢复的错误
+- line 5391: h1 匹配不同的错误
+- line 5420: h1 失败时 panic 的简写： unwrap 和 expect
+- line 5452: h1 传播错误
+- line 5481: h1 传播错误的简写： ? 运算符
+- line 5533: h1 ? 运算符可被用于返回 Result 的函数
+- line 5571: h1 panic! 还是不 panic!
+- line 5581: h1 示例、代码原型和测试都非常适合 panic
+- line 5589: h1 当我们比编译器知道更多的情况
+- line 5599: h1 错误处理指导原则
+- line 5615: h1 创建自定义类型进行有效性验证
+- line 5660: h1 总结
+- line 5666: h1 泛型、trait 和生命周期
+- line 5686: h1 提取函数来减少重复
+- line 5734: h1 assert_eq!(result, 100);
+- line 5738: h1 assert_eq!(result, 6000);
+- line 5756: h1 泛型数据类型
+- line 5764: h1 在函数定义中使用泛型
+- line 5795: h1 assert_eq(result, 100);
+- line 5799: h1 assert_eq(result, 'y');
+- line 5858: h1 结构体定义中的泛型
+- line 5929: h1 枚举定义中的泛型
+- line 5955: h1 方法定义中的泛型
+- line 5988: h1 struct Point<T> {
+- line 5989: h1 x: T,
+- line 5990: h1 y: T,
+- line 5991: h1 }
+- line 6036: h1 泛型代码的性能
+- line 6074: h1 trait：定义共享的行为
+- line 6084: h1 定义 trait
+- line 6108: h1 为类型实现 trait
+- line 6114: h1 pub trait Summary {
+- line 6115: h1 fn summarize(&self) -> String;
+- line 6116: h1 }
+- line 6165: h1 默认实现
+- line 6237: h1 trait 作为参数
+- line 6251: h1 Trait Bound 语法
+- line 6277: h1 通过 + 指定多个 trait bound
+- line 6293: h1 通过 where 简化 trait bound
+- line 6312: h1 返回实现了 trait 的类型
+- line 6354: h1 使用 trait bounds 来修复 largest 函数
+- line 6418: h1 使用 trait bound 有条件地实现方法
+- line 6454: h1 生命周期与引用有效性
+- line 6464: h1 生命周期避免了悬垂引用
+- line 6492: h1 借用检查器
+- line 6518: h1 函数中的泛型生命周期
+- line 6567: h1 生命周期注解语法
+- line 6583: h1 函数签名中的生命周期注解
+- line 6641: h1 深入理解生命周期
+- line 6687: h1 结构体定义中的生命周期注解
+- line 6712: h1 生命周期省略（Lifetime Elision）
+- line 6784: h1 方法定义中的生命周期注解
+- line 6795: h1 struct ImportantExcerpt<'a> {
+- line 6796: h1 part: &'a str,
+- line 6797: h1 }
+- line 6799: h1 impl<'a> ImportantExcerpt<'a> {
+- line 6811: h1 struct ImportantExcerpt<'a> {
+- line 6812: h1 part: &'a str,
+- line 6813: h1 }
+- line 6815: h1 impl<'a> ImportantExcerpt<'a> {
+- line 6824: h1 静态生命周期
+- line 6836: h1 结合泛型类型参数、trait bounds 和生命周期
+- line 6847: h1 总结
+- line 6855: h1 编写自动化测试
+- line 6871: h1 如何编写测试
+- line 6885: h1 测试函数剖析
+- line 7001: h1 使用 assert! 宏来检查结果
+- line 7090: h1 使用 assert_eq! 和 assert_ne! 宏来测试相等
+- line 7146: h1 自定义失败信息
+- line 7202: h1 使用 should_panic 检查 panic
+- line 7213: h1 fn main() {}
+- line 7242: h1 fn main() {}
+- line 7243: h1 pub struct Guess {
+- line 7244: h1 value: i32,
+- line 7245: h1 }
+- line 7275: h1 fn main() {}
+- line 7276: h1 pub struct Guess {
+- line 7277: h1 value: i32,
+- line 7278: h1 }
+- line 7330: h1 将 Result<T, E> 用于测试
+- line 7358: h1 控制测试如何运行
+- line 7368: h1 并行或连续的运行测试
+- line 7382: h1 显示函数输出
+- line 7452: h1 通过指定名字来运行部分测试
+- line 7493: h1 运行单个测试
+- line 7510: h1 过滤运行多个测试
+- line 7526: h1 忽略某些测试
+- line 7570: h1 测试的组织结构
+- line 7580: h1 单元测试
+- line 7584: h1 测试模块和 #[cfg(test)]
+- line 7604: h1 测试私有函数
+- line 7615: h1 集成测试
+- line 7619: h1 tests 目录
+- line 7675: h1 集成测试中的子模块
+- line 7725: h1 二进制 crate 的集成测试
+- line 7731: h1 总结
+- line 7739: h1 一个 I/O 项目：构建一个命令行程序
+- line 7765: h1 ## 接受命令行参数
+- line 7787: h1 读取参数值
+- line 7803: h1 args 函数和无效的 Unicode
+- line 7824: h1 将参数值保存进变量
+- line 7851: h1 ## 读取文件
+- line 7859: h1 文件名: poem.txt
+- line 7876: h1 文件名: src/main.rs
+- line 7912: h1 ## 重构改进模块性和错误处理
+- line 7928: h1 二进制项目的关注分离
+- line 7946: h1 提取参数解析器
+- line 7965: h1 组合配置值
+- line 7978: h1 use std::env;
+- line 7979: h1 use std::fs;
+- line 7997: h1 使用 clone 的权衡取舍
+- line 8005: h1 创建一个 Config 的构造函数
+- line 8014: h1 use std::env;
+- line 8018: h1 struct Config { # query: String, # filename: String, # } # // --snip--
+- line 8027: h1 修复错误处理
+- line 8043: h1 改善错误信息
+- line 8075: h1 从 new 中返回 Result 而不是调用 panic!
+- line 8104: h1 Config::new 调用并处理错误
+- line 8128: h1 从 main 提取逻辑
+- line 8144: h1 从 run 函数中返回错误
+- line 8179: h1 处理 main 中 run 返回的错误
+- line 8193: h1 将代码拆分到库 crate
+- line 8240: h2 采用测试驱动开发完善库的功能
+- line 8259: h1 编写失败测试
+- line 8266: h1 pub fn search<'a>(query: &str, contents: &'a str) -> Vec<'a str> {
+- line 8267: h1 vec![ ]
+- line 8268: h1 }
+- line 8334: h1 编写使测试通过的代码
+- line 8346: h1 使用 lines 方法遍历每一行
+- line 8364: h1 用查询字符串搜索每一行
+- line 8382: h1 存储匹配的行
+- line 8416: h1 在 run 函数中使用 search 函数
+- line 8464: h1 ## 处理环境变量
+- line 8472: h1 编写一个大小写不敏感 search 函数的失败测试
+- line 8511: h1 实现 search_case_insensitive 函数
+- line 8560: h1 use std::error::Error;
+- line 8561: h1 use std::fs::{self, File};
+- line 8562: h1 use std::io::prelude: \*;
+- line 8564: h1 pub fn search $<  ^{\prime}$ a>(query: &str, contents: &'a str) -> Vec&&'a str> { # vec![]
+- line 8565: h1 }
+- line 8567: h1 pub fn search(caseInsensitive $<  ^{\prime}$ a>(query: &str, contents: &'a str) -> Vec&&'a str> { # vec![]
+- line 8570: h1 pub struct Config { # query: String, # filename: String, # caseSensitive: bool,
+- line 8587: h1 struct Config { # query: String, # filename: String, # caseSensitive: bool, # } // --snip--
+- line 8635: h2 将错误信息输出到标准错误而不是标准输出
+- line 8645: h1 检查错误应该写入何处
+- line 8665: h1 将错误打印到标准错误
+- line 8700: h1 总结
+- line 8706: h1 Rust 中的函数式语言功能：迭代器与闭包
+- line 8727: h1 闭包：可以捕获环境的匿名函数
+- line 8735: h1 使用闭包创建行为的抽象
+- line 8770: h1 fn generate_workout(intensity: u32, random_number: u32) {}
+- line 8783: h1 use std::thread;
+- line 8784: h1 use std::time::Duration;
+- line 8786: h1 fn simulated_expensive Calculation(num: u32) -> u32 {
+- line 8787: h1 println("calculating slowly...");
+- line 8788: h1 thread::sleep(Duration::from(sec(2));
+- line 8789: h1 num
+- line 8790: h1 }
+- line 8808: h1 使用函数重构
+- line 8815: h1 use std::thread;
+- line 8816: h1 use std::time::Duration;
+- line 8818: h1 fn simulated_expensive Calculation(num: u32) -> u32 { # println("calculating slowly..."); # thread::sleep(Duration::from(sec(2)); # num
+- line 8819: h1 }
+- line 8831: h1 重构使用闭包储存代码
+- line 8840: h1 use std::time::Duration;
+- line 8844: h1 expensive_closure(5);
+- line 8858: h1 use std::thread;
+- line 8859: h1 use std::time::Duration;
+- line 8871: h1 闭包类型推断和注解
+- line 8883: h1 use std::time::Duration;
+- line 8926: h1 使用带有泛型和 Fn trait 的闭包
+- line 8962: h1 struct Cacher<T>
+- line 8963: h1 where T: Fn(u32) -> u32
+- line 8964: h1 {
+- line 8965: h1 calculation: T,
+- line 8966: h1 value: Option<U32>,
+- line 8967: h1 }
+- line 9006: h1 use std::time::Duration;
+- line 9008: h1 struct Cacher<T>
+- line 9009: h1 where T: Fn(u32) -> u32
+- line 9010: h1 {
+- line 9011: h1 calculation: T,
+- line 9012: h1 value: Option<U32>,
+- line 9013: h1 }
+- line 9015: h1 impl<T> Cacher<T>
+- line 9016: h1 where T: Fn(u32) -> u32
+- line 9017: h1 {
+- line 9018: h1 fn new(calculation: T) -> Cacher<T> {
+- line 9019: h1 Cacher {
+- line 9020: h1 calculation,
+- line 9021: h1 value: None,
+- line 9022: h1 }
+- line 9023: h1 }
+- line 9025: h1 fn value(&mut self, arg: u32) -> u32 {
+- line 9026: h1 match self.value {
+- line 9027: h1 Some(v) => v,
+- line 9028: h1 None => {
+- line 9029: h1 let v = (self calculation)(arg);
+- line 9030: h1 self.value = Some(v);
+- line 9031: h1 v
+- line 9032: h1 },
+- line 9033: h1 }
+- line 9034: h1 }
+- line 9054: h1 Cacher 实现的限制
+- line 9086: h1 闭包会捕获其环境
+- line 9159: h1 使用迭代器处理元素序列
+- line 9192: h1 Iterator trait 和 next 方法
+- line 9230: h1 消费迭代器的方法
+- line 9252: h1 产生其他迭代器的方法
+- line 9297: h1 使用闭包获取环境
+- line 9328: h1 实现 Iterator trait 来创建自定义迭代器
+- line 9360: h1 struct Counter {
+- line 9361: h1 count: u32,
+- line 9362: h1 }
+- line 9382: h1 使用 Counter 迭代器的 next 方法
+- line 9389: h1 struct Counter {
+- line 9390: h1 count: u32,
+- line 9391: h1 }
+- line 9393: h1 impl Iterator for Counter {
+- line 9394: h1 type Item = u32;
+- line 9396: h1 fn next(&mut self) -> Option<Self::Item> {
+- line 9397: h1 self.count += 1;
+- line 9399: h1 if self.count < 6 {
+- line 9400: h1 Some(self.count)
+- line 9401: h1 } else {
+- line 9402: h1 None
+- line 9403: h1 }
+- line 9404: h1 }
+- line 9405: h1 [test]
+- line 9421: h1 使用自定义迭代器中其他 Iterator trait 方法
+- line 9430: h1 struct Counter {
+- line 9431: h1 count: u32,
+- line 9432: h1 }
+- line 9434: h1 impl Counter {
+- line 9435: h1 fn new() -> Counter {
+- line 9436: h1 Counter { count: 0 }
+- line 9439: h1 }
+- line 9441: h1 impl Iterator for Counter {
+- line 9442: h1 // 迭代器会产生 u32s
+- line 9443: h1 type Item = u32;
+- line 9445: h1 fn next(&mut self) -> Option<Self::Item> {
+- line 9446: h1 // count 自增 1。也就是为什么从 0 开始。
+- line 9447: h1 self.count += 1;
+- line 9449: h1 // 检测是否结束结束计数。
+- line 9450: h1 if self.count < 6 {
+- line 9451: h1 Some(self.count)
+- line 9452: h1 } else {
+- line 9453: h1 None
+- line 9454: h1 }
+- line 9456: h1 }
+- line 9458: h1 [test]
+- line 9473: h1 改进 I/O 项目
+- line 9481: h1 使用迭代器并去掉 clone
+- line 9509: h1 直接使用 env::args 返回的迭代器
+- line 9537: h1 use std::env;
+- line 9539: h1 struct Config{ # query: String, # filename: String, # caseSensitive: bool, # }
+- line 9549: h1 使用迭代器适配器来使代码更简明
+- line 9589: h1 性能对比：循环 VS 迭代器
+- line 9637: h1 总结
+- line 9643: h1 进一步认识 Cargo 和 Crates.io
+- line 9657: h1 采用发布配置自定义构建
+- line 9696: h1 将 crate 发布到 Crates.io
+- line 9706: h1 编写有用的文档注释
+- line 9740: h1 常用（文档注释）部分
+- line 9750: h1 文档注释作为测试
+- line 9763: h1 注释包含项的结构
+- line 9794: h1 Crate my_crate
+- line 9798: h1 [-] My Crate
+- line 9802: h1 Functions
+- line 9810: h1 使用 pub use 导出合适的公有 API
+- line 9832: h1 SecondaryColor::Orange
+- line 9903: h1 创建 Crates.io 账号
+- line 9913: h1 发布新 crate 之前
+- line 9966: h1 发布到 Crates.io
+- line 9987: h1 发布现存 crate 的新版本
+- line 10011: h1 Cargo 工作空间
+- line 10019: h1 创建工作空间
+- line 10053: h1 在工作空间中创建第二个 crate
+- line 10132: h1 在工作空间中依赖外部 crate
+- line 10165: h1 为工作空间增加测试
+- line 10226: h1 使用 cargo install 从 Crates.io 安装二进制文件
+- line 10250: h1 Cargo 自定义扩展命令
+- line 10258: h1 总结
+- line 10262: h1 智能指针
+- line 10288: h1 使用 Box <T> 指向堆上的数据
+- line 10304: h1 使用 Box<T> 在堆上储存数据
+- line 10322: h1 Box 允许创建递归类型
+- line 10328: h1 cons list 的更多内容
+- line 10380: h1 计算非递归类型的大小
+- line 10400: h1 使用 Box<T> 给递归类型一个已知的大小
+- line 10434: h1 通过 Deref trait 将智能指针当作常规引用处理
+- line 10446: h1 通过解引用运算符追踪指针的值
+- line 10472: h1 像引用一样使用 Box<T>
+- line 10485: h1 自定义智能指针
+- line 10524: h1 通过实现 Deref trait 将某类型像引用一样处理
+- line 10531: h1 struct MyBox<T>(T);
+- line 10556: h1 函数和方法的隐式解引用强制多态
+- line 10579: h1 use std::ops::Deref;
+- line 10581: h1 struct MyBox<T>(T);
+- line 10583: h1 impl<T> MyBox<T> {
+- line 10584: h1 fn new(x: T) -> MyBox<T> {
+- line 10585: h1 MyBox(x)
+- line 10586: h1 }
+- line 10587: h1 }
+- line 10589: h1 impl<T> Deref for MyBox<T> {
+- line 10590: h1 type Target = T;
+- line 10592: h1 fn deref(&self) -> &T {
+- line 10593: h1 &self.0
+- line 10594: h1 }
+- line 10595: h1 }
+- line 10597: h1 fn hello(name: &str) {
+- line 10598: h1 println("Hello, {},!", name);
+- line 10599: h1 }
+- line 10614: h1 use std::ops::Deref;
+- line 10616: h1 struct MyBox<T>(T);
+- line 10618: h1 impl<T> MyBox<T> {
+- line 10619: h1 fn new(x: T) -> MyBox<T> {
+- line 10620: h1 MyBox(x)
+- line 10621: h1 }
+- line 10622: h1 }
+- line 10624: h1 impl<T> Deref for MyBox<T> {
+- line 10625: h1 type Target = T;
+- line 10627: h1 fn deref(&self) -> &T {
+- line 10628: h1 &self.0
+- line 10629: h1 }
+- line 10630: h1 }
+- line 10632: h1 fn hello(name: &str) {
+- line 10633: h1 println("Hello, {},!", name);
+- line 10634: h1 }
+- line 10646: h1 解引用强制多态如何与可变性交互
+- line 10660: h1 使用 Drop Trait 运行清理代码
+- line 10716: h1 通过 std::mem::drop 提早丢弃值
+- line 10751: h1 struct CustomSMARTPointer {
+- line 10752: h1 data: String,
+- line 10753: h1 }
+- line 10755: h1 impl Drop for CustomSMARTPointer {
+- line 10756: h1 fn drop(&mut self) {
+- line 10757: h1 println("Dropping CustomSMARTPointer with data {}!", self.data);
+- line 10758: h1 }
+- line 10760: h1 main() {
+- line 10786: h1 Rc<T> 引用计数智能指针
+- line 10802: h1 使用 Rc<T> 共享数据
+- line 10857: h1 克隆 Rc<T> 会增加引用计数
+- line 10866: h1 enum List {
+- line 10867: h1 Cons(i32, Rc<List>),
+- line 10868: h1 Nil,
+- line 10869: h1 }
+- line 10871: h1 use crate::List::{Cons, Nil};
+- line 10872: h1 use std::rc::Rc;
+- line 10899: h1 RefCell<T> 和内部可变性模式
+- line 10909: h1 通过 RefCell<T> 在运行时检查借用规则
+- line 10934: h1 内部可变性：不可变值的可变借用
+- line 10955: h1 内部可变性的用例：mock 对象
+- line 11033: h1 pub trait Messenger {
+- line 11034: h1 fn send(&self, msg: &str);
+- line 11035: h1 }
+- line 11037: h1 pub struct LimitTracker<'a, T: Messenger> {
+- line 11038: h1 messenger: &'a T,
+- line 11039: h1 value: usize,
+- line 11040: h1 max: usize,
+- line 11041: h1 }
+- line 11043: h1 impl<'a, T> LimitTracker<'a, T>
+- line 11045: h1 where T: Messenger {
+- line 11046: h1 pub fn new(messenger: &T, max: usize) -> LimitTracker<T> {
+- line 11047: h1 LimitTracker {
+- line 11048: h1 messenger,
+- line 11049: h1 value: 0,
+- line 11050: h1 max,
+- line 11054: h1 pub fn set_value(&mut self, value: usize) {
+- line 11055: h1 self.value = value;
+- line 11060: h1 self.messenger.send("Error: You are over your quota!");
+- line 11063: h1 self.messenger.send("Urgent warning: You've used up over 90% of your quota!");
+- line 11066: h1 self.messenger.send("Warning: You've used up over 75% of your quota!");
+- line 11071: h1 }
+- line 11072: h1 }
+- line 11088: h1 RefCell<T> 在运行时记录借用
+- line 11122: h1 结合 Rc<T> 和 RefCell<T> 来拥有多个可变数据所有者
+- line 11128: h1 文件名: src/main.rs
+- line 11169: h1 引用循环与内存泄漏
+- line 11177: h1 制造引用循环
+- line 11202: h1 use crate::List::{Cons, Nil};
+- line 11203: h1 use std::rc::Rc;
+- line 11204: h1 use std::cell::RefCell;
+- line 11205: h1 #[derive(Debug)]
+- line 11206: h1 enum List {
+- line 11207: h1 Cons(i32, RefCell<Rc<List>>),
+- line 11208: h1 Nil,
+- line 11209: h1 }
+- line 11211: h1 impl List {
+- line 11212: h1 fn tail(&self) -> Option<&RefCell<Rc<List>>>
+- line 11213: h1 match self {
+- line 11214: h1 Cons _, item) => Some(item),
+- line 11215: h1 Nil => None,
+- line 11216: h1 }
+- line 11218: h1 }
+- line 11278: h1 创建树形数据结构：带有子结点的 Node
+- line 11297: h1 use std::rc::Rc;
+- line 11298: h1 use std::cell::RefCell;
+- line 11302: h1 value: i32,
+- line 11303: h1 children: RefCell<Vec<Rc<Node>>>,
+- line 11313: h1 增加从子到父的引用
+- line 11339: h1 use std::rc::{Rc, Weak};
+- line 11340: h1 use std::cell::RefCell;
+- line 11342: h1 #[derive(Debug)]
+- line 11343: h1 struct Node {
+- line 11344: h1 value: i32,
+- line 11345: h1 parent: RefCell<Weak<Node>+</weak><node>+</node>
+- line 11346: h1 children: RefCell<Vec<Rc<node>></node>
+- line 11347: h1 }
+- line 11386: h1 可视化 strong_count 和 weak_count 的改变
+- line 11394: h1 use std::cell::RefCell;
+- line 11396: h1 #[derive(Debug)]
+- line 11397: h1 struct Node {
+- line 11398: h1 value: i32,
+- line 11399: h1 parent: RefCell<Weak<Rc>>,
+- line 11400: h1 children: RefCell<Vec<Rc>>},
+- line 11401: h1 }
+- line 11429: h1 总结
+- line 11441: h1 无畏并发
+- line 11474: h1 使用线程同时运行代码
+- line 11502: h1 使用 spawn 创建新线程
+- line 11535: h1 使用 join 等待所有线程结束
+- line 11597: h1 线程与 move 闭包
+- line 11683: h1 使用消息传递在线程间传送数据
+- line 11750: h1 通道与所有权转移
+- line 11779: h1 发送多个值并观察接收者的等待
+- line 11807: h1 通过克隆发送者来创建多个生产者
+- line 11813: h1 use std::thread;
+- line 11814: h1 use std::sync::mpsc;
+- line 11815: h1 use std::time::Duration;
+- line 11817: h1 fn main() {
+- line 11833: h1 }
+- line 11857: h1 共享状态并发
+- line 11871: h1 互斥器一次只允许一个线程访问数据
+- line 11884: h1 Mutex<T> 的 API
+- line 11906: h1 在线程间共享 Mutex<T>
+- line 11942: h1 多线程和多所有权
+- line 11979: h1 原子引用计数 Arc<T>
+- line 12019: h1 RefCell<T> / Rc<T> 与 Mutex<T> / Arc<T> 的相似 性
+- line 12027: h1 使用 Sync 和 Send trait 的可扩展并发
+- line 12037: h1 通过 Send 允许在线程间转移所有权
+- line 12045: h1 Sync 允许多线程访问
+- line 12057: h1 总结
+- line 12067: h1 Rust 的面向对象特性
+- line 12075: h1 面向对象语言的特征
+- line 12083: h1 对象包含数据和行为
+- line 12097: h1 封装隐藏了实现细节
+- line 12118: h1 pub struct AveragedCollection {
+- line 12119: h1 list: Vec<i32>,
+- line 12120: h1 average: f64,
+- line 12121: h1 }
+- line 12136: h1 继承，作为类型系统与代码共享
+- line 12154: h1 为使用不同类型的值而设计的 trait 对象
+- line 12168: h1 定义通用行为的 trait
+- line 12192: h1 fn draw(&self);
+- line 12193: h1 }
+- line 12194: h1 pub struct Screen {
+- line 12205: h1 pub trait Draw {
+- line 12206: h1 fn draw(&self);
+- line 12207: h1 }
+- line 12209: h1 pub struct Screen {
+- line 12210: h1 pub components: Vec<Box<dyn Draw>&,
+- line 12211: h1 }
+- line 12229: h1 pub trait Draw {
+- line 12230: h1 fn draw(&self);
+- line 12231: h1 }
+- line 12252: h1 实现 trait
+- line 12259: h1 pub trait Draw {
+- line 12260: h1 fn draw(&self);
+- line 12261: h1 }
+- line 12331: h1 trait 对象执行动态分发
+- line 12337: h1 Trait 对象要求对象安全
+- line 12379: h1 面向对象设计模式的实现
+- line 12414: h1 定义 Post 并新建一个草案状态的实例
+- line 12444: h1 存放博文内容的文本
+- line 12451: h1 pub struct Post {
+- line 12452: h1 content: String,
+- line 12453: h1 }
+- line 12466: h1 确保博文草案的内容是空的
+- line 12473: h1 pub struct Post {
+- line 12474: h1 content: String,
+- line 12475: h1 }
+- line 12486: h1 请求审核博文来改变其状态
+- line 12491: h1 pub struct Post {
+- line 12492: h1 state: Option<Box<dyn State>,
+- line 12493: h1 content: String,
+- line 12494: h1 }
+- line 12538: h1 增加改变 content 行为的 approve 方法
+- line 12545: h1 pub struct Post {
+- line 12546: h1 state: Option<Box<dyn State>,
+- line 12547: h1 content: String,
+- line 12548: h1 }
+- line 12566: h1 }
+- line 12567: h1 // --snip-- fn approve(self: Box<Self>) -> Box<dyn State> { self }
+- line 12571: h1 // --snip-- fn approve(self: Box<Self>) -> Box<dyn State> { Box::new(Published {） }
+- line 12590: h1 trait State {
+- line 12591: h1 fn content<'a>(&self, post: &'a Post) -> &'a str;
+- line 12592: h1 }
+- line 12593: h1 pub struct Post {
+- line 12594: h1 state: OptionBOXdyn State'),
+- line 12595: h1 content: String,
+- line 12596: h1 }
+- line 12620: h1 pub struct Post {
+- line 12621: h1 content: String
+- line 12622: h1 }
+- line 12646: h1 状态模式的权衡取舍
+- line 12668: h1 将状态和行为编码为类型
+- line 12716: h1 实现状态转移为不同类型的转换
+- line 12723: h1 pub struct Post {
+- line 12724: h1 content: String,
+- line 12725: h1 }
+- line 12727: h1 pub struct DraftPost {
+- line 12728: h1 content: String,
+- line 12729: h1 }
+- line 12771: h1 总结
+- line 12777: h1 模式用来匹配值的结构
+- line 12797: h1 所有可能会用到模式的位置
+- line 12805: h1 match 分支
+- line 12821: h1 if let 条件表达式
+- line 12845: h1 while let 条件循环
+- line 12862: h1 for 循环
+- line 12887: h1 let 语句
+- line 12930: h1 函数参数
+- line 12966: h1 Refutability（可反驳性）: 模式是否会匹配失效
+- line 13029: h1 所有的模式语法
+- line 13037: h1 匹配字面值
+- line 13045: h1 匹配命名变量
+- line 13067: h1 多个模式
+- line 13075: h1 通过 ..= 匹配值的范围
+- line 13092: h1 解构并分解值
+- line 13096: h1 解构结构体
+- line 13147: h1 struct Point {
+- line 13148: h1 x: i32,
+- line 13149: h1 y: i32,
+- line 13150: h1 }
+- line 13170: h1 解构枚举
+- line 13218: h1 解构嵌套的结构体和枚举
+- line 13252: h1 解构结构体和元组
+- line 13257: h1 struct Point {
+- line 13258: h1 x: i32,
+- line 13259: h1 y: i32,
+- line 13260: h1 }
+- line 13269: h1 忽略模式中的值
+- line 13273: h1 使用 _ 忽略整个值
+- line 13294: h1 使用嵌套的 忽略部分值
+- line 13406: h1 匹配守卫提供的额外条件
+- line 13456: h1 @ 绑定
+- line 13488: h1 总结
+- line 13494: h1 高级特征
+- line 13512: h1 不安全 Rust
+- line 13524: h1 不安全的超级力量
+- line 13544: h1 解引用裸指针
+- line 13600: h1 调用不安全函数或方法
+- line 13622: h1 创建不安全代码的安全抽象
+- line 13698: h1 使用 extern 函数调用外部代码
+- line 13721: h1 从其它语言调用 Rust 函数
+- line 13736: h1 访问或修改可变静态变量
+- line 13782: h1 实现不安全 trait
+- line 13798: h1 何时使用不安全代码
+- line 13804: h1 高级 trait
+- line 13812: h1 关联类型在 trait 定义中指定占位符类型
+- line 13857: h1 默认泛型类型参数和运算符重载
+- line 13915: h1 完全限定语法与消歧义：调用相同名称的方法
+- line 13943: h1 trait Pilot {
+- line 13944: h1 fn fly(&self);
+- line 13945: h1 }
+- line 13947: h1 trait Wizard {
+- line 13948: h1 fn fly(&self);
+- line 13949: h1 }
+- line 13951: h1 struct Human;
+- line 13953: h1 impl Pilot for Human {
+- line 13954: h1 fn fly(&self) {
+- line 13955: h1 println!("This is your captain speaking.")
+- line 13957: h1 }
+- line 13960: h1 impl Wizard for Human {
+- line 13961: h1 fn fly(&self) {
+- line 13962: h1 println("Up!");
+- line 13964: h1 }
+- line 13967: h1 impl Human {
+- line 13968: h1 fn fly(&self) {
+- line 13969: h1 println("*waving arms furiously*");
+- line 13971: h1 }
+- line 13988: h1 trait Pilot {
+- line 13989: h1 fn fly(&self);
+- line 13990: h1 }
+- line 13992: h1 trait Wizard {
+- line 13993: h1 fn fly(&self);
+- line 13994: h1 }
+- line 13996: h1 struct Human;
+- line 13998: h1 impl Pilot for Human {
+- line 13999: h1 fn fly(&self) {
+- line 14000: h1 println!("This is your captain speaking.")
+- line 14002: h1 }
+- line 14005: h1 impl Wizard for Human {
+- line 14006: h1 fn fly(&self) {
+- line 14007: h1 println!("Up!");
+- line 14009: h1 }
+- line 14012: h1 impl Human {
+- line 14013: h1 fn fly(&self) {
+- line 14014: h1 println!("*waving arms furiously*");
+- line 14016: h1 }
+- line 14018: h1 main() {
+- line 14101: h1 trait Animal {
+- line 14102: h1 fn baby_name() -> String;
+- line 14103: h1 }
+- line 14105: h1 struct Dog;
+- line 14107: h1 impl Dog {
+- line 14108: h1 fn baby_name() -> String {
+- line 14109: h1 String::from("Spot")
+- line 14110: h1 }
+- line 14112: h1 }
+- line 14114: h1 impl Animal for Dog {
+- line 14115: h1 fn baby_name() -> String {
+- line 14116: h1 String::from("puppy")
+- line 14117: h1 }
+- line 14119: h1 }
+- line 14142: h1 父 trait 用于在另一个 trait 中使用某 trait 的功能
+- line 14173: h1 trait OutlinePrint {}
+- line 14197: h1 struct Point {
+- line 14198: h1 x: i32,
+- line 14199: h1 y: i32,
+- line 14200: h1 }
+- line 14212: h1 newtype 模式用以在外部类型上实现外部 trait
+- line 14239: h1 高级类型
+- line 14249: h1 为了类型安全和抽象而使用 newtype 模式
+- line 14257: h1 类型别名用来创建类型同义词
+- line 14287: h1 Box::new(|| ())
+- line 14300: h1 Box::new(|| ())
+- line 14331: h1 从不返回的 never type
+- line 14346: h1 loop {
+- line 14349: h1 break;
+- line 14387: h1 动态大小类型和 Sized trait
+- line 14440: h1 高级函数与闭包
+- line 14448: h1 函数指针
+- line 14507: h1 返回闭包
+- line 14544: h1 宏
+- line 14558: h1 宏和函数的区别
+- line 14572: h1 使用 macro_rules! 的声明宏用于通用元编程
+- line 14635: h1 用于从属性生成代码的过程宏
+- line 14656: h1 如何编写自定义 derive 宏
+- line 14819: h1 类属性宏
+- line 14838: h1 类函数宏
+- line 14855: h1 总结
+- line 14861: h1 最后的项目: 构建多线程 web server
+- line 14873: h1 Hello!
+- line 14875: h1 Hi from Rust
+- line 14893: h1 构建单线程 web server
+- line 14907: h1 监听 TCP 连接
+- line 14954: h1 读取请求
+- line 15000: h1 仔细观察 HTTP 请求
+- line 15026: h1 编写响应
+- line 15060: h1 返回真正的 HTML
+- line 15076: h1 use std::io::prelude:*; # use std::net::TcpStream; use std::fs; // --snip-- fn handle_connection(mu stream: TcpStream) { let mut buffer $=$ [0; 512]; stream.read(&mut buffer).unwrap(); let contents $=$ fs::read_to_string("hello.html").unwrap(); let response $=$ format！("HTTP/1.1 200 OK\r\n\r\n{”，contents); stream.write(response.as_bytes().unwrap()); stream.flush().unwrap();
+- line 15089: h1 验证请求并有选择的进行响应
+- line 15095: h1 use std::io::prelude: $\text{串}$ # use std::net::TcpStream;
+- line 15096: h1 use std::fs;
+- line 15113: h1 use std::io::prelude: $\text{串} ^ { \text{串} }$ # use std::net::TcpStream;
+- line 15114: h1 use std::fs;
+- line 15115: h1 fn handle_connection(mut stream: TcpStream) {
+- line 15116: h1 if true {
+- line 15120: h1 }
+- line 15142: h1 use std::io::prelude:*;
+- line 15143: h1 use std::net::TcpStream;
+- line 15144: h1 use std::fs;
+- line 15147: h1 let mut buffer = [0; 512];
+- line 15148: h1 stream.read(&mut buffer).unwrap();
+- line 15150: h1 let get = b"GET / HTTP/1.1\r\n";
+- line 15168: h1 将单线程 server 变为多线程 server
+- line 15176: h1 在当前 server 实现中模拟慢请求
+- line 15184: h1 use std::io::prelude: $\text{串}$ .
+- line 15185: h1 use std::net::TcpStream;
+- line 15186: h1 use std::fs::File;
+- line 15200: h1 使用线程池改善吞吐量
+- line 15214: h1 为每一个请求分配线程的代码结构
+- line 15220: h1 use std::thread;
+- line 15221: h1 use std::io::prelude: $\text{串}$ # use std::net::TcpListener;
+- line 15222: h1 use std::net::TcpStream;
+- line 15226: h1 fn handle_connection(mut stream: TcpStream）{}
+- line 15232: h1 为有限数量的线程创建一个类似的接口
+- line 15238: h1 use std::thread;
+- line 15239: h1 use std::io::prelude: $\text{串}$ # use std::net::TcpListener;
+- line 15240: h1 use std::net::TcpStream;
+- line 15241: h1 struct ThreadPool;
+- line 15242: h1 impl ThreadPool {
+- line 15243: h1 fn new(size: u32) -> ThreadPool { ThreadPool}
+- line 15244: h1 fn execute(&self, f: F)
+- line 15245: h1 where F: FnOnce() + Send + 'static {}
+- line 15251: h1 fn handle_connection(mut stream: TcpStream){
+- line 15257: h1 采用编译器驱动构建 ThreadPool 结构体
+- line 15390: h1 在 new 中验证池中线程数量
+- line 15396: h1 pub struct ThreadPool;
+- line 15422: h1 分配空间以储存线程
+- line 15455: h1 Worker 结构体负责从 ThreadPool 中将代码传递给线程
+- line 15496: h1 使用通道向线程发送请求
+- line 15515: h1 use std::thread;
+- line 15524: h1 struct Worker { # id: usize, # thread: thread::JoinHandle<(>)， # }
+- line 15526: h1 impl Worker { # fn new(id: usize) -> Worker { # let thread = thread::spawn(|| {}); # Worker { # id, # thread,
+- line 15527: h1 }
+- line 15570: h1 use std::thread;
+- line 15571: h1 use std::sync::mpsc;
+- line 15575: h1 pub struct ThreadPool { # workers: Vec<Worker>, # sender: mpsc::Sender<Job>, # }
+- line 15576: h1 struct Job;
+- line 15577: h1 impl ThreadPool { // --snip-- pub fn new(size: usize) -> ThreadPool { assert!(size > 0); let (sender, receiver) = mpsc::channel(); let receiver = Arc::new(Mutex::new(receiver));
+- line 15584: h1 struct Worker { # id: usize, # thread: thread::JoinHandle<(); # } # impl Worker { fn new(id: usize, receiver: Arc<Mutex<mpsc::Receiver<Job>>>) -> Worker { // --snip-- # let thread = thread::spawn(|| { # receive; # }）; # worker { # id, # thread, # } }
+- line 15593: h1 实现 execute 方法
+- line 15601: h1 pub struct ThreadPool {
+- line 15602: h1 workers: Vec<Worker>,
+- line 15603: h1 sender: mpsc::Sender<Job},
+- line 15604: h1 }
+- line 15605: h1 use std::sync::mpsc;
+- line 15606: h1 struct Worker {}
+- line 15692: h1 优雅停机与清理
+- line 15704: h1 为 ThreadPool 实现 Drop Trait
+- line 15807: h1 向线程发送信号使其停止接收任务
+- line 15816: h1 struct Job;
+- line 15975: h1 总结
+- line 15979: h1 附录
+- line 15987: h1 附录 A： 关键字
+- line 15995: h1 目前正在使用的关键字
+- line 16037: h1 保留做将来使用的关键字
+- line 16059: h1 原始标识符
+- line 16096: h1 附录 B：运算符与符号
+- line 16104: h1 运算符
+- line 16112: h1 非运算符符号
+- line 16170: h1 附录 C：可派生的 trait
+- line 16194: h1 用于程序员输出的 Debug
+- line 16202: h1 等值比较的 PartialEq 和 Eq
+- line 16214: h1 次序比较的 PartialOrd 和 Ord
+- line 16228: h1 复制值的 Clone 和 Copy
+- line 16246: h1 固定大小的值到值映射的 Hash
+- line 16252: h1 默认值的 Default
+- line 16262: h1 附录 D：实用开发工具
+- line 16270: h1 通过 rustfmt 自动格式化
+- line 16288: h1 通过 rustfix 修复代码
+- line 16344: h1 通过 clippy 提供更多 lint 功能
+- line 16388: h1 使用 Rust Language Server 的 IDE 集成
+- line 16404: h1 附录 E：版本
+- line 16434: h1 附录 F：本书译本
+- line 16460: h1 附录 G：Rust 是如何开发的与 “Nightly Rust”
+- line 16468: h1 无停滞稳定
+- line 16474: h1 Choo, Choo!（开车啦，逃）发布通道和发布时刻表（Ridingthe Trains）
+- line 16528: h1 不稳定功能
+- line 16536: h1 Rustup 和 Rust Nightly 的职责
+- line 16561: h1 RFC 过程和团队

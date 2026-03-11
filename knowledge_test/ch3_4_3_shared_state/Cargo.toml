@@ -1,0 +1,6 @@
+[package]
+name = "ch3_4_3_shared_state"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

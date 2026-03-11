@@ -1,0 +1,10 @@
+[package]
+name = "ch3_2_4_cargo_install"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[[bin]]
+name = "hello-install"
+path = "src/main.rs"
